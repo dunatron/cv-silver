@@ -5,7 +5,7 @@
 
             <div class="col-lg-12">
 
-                <h1>Education</h1>
+                <h1 id="#education">Education</h1>
                 <i class="fa fa-graduation-cap fa-5x"></i>
             </div>
 
