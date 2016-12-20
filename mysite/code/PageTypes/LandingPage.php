@@ -79,6 +79,12 @@ class LandingPage_Controller extends Page_Controller
     {
         parent::init();
     }
+
+    public function AssociatedEducationPages()
+    {
+        $pages = EducationPage::get();
+        return $pages;
+    }
 }
 
 

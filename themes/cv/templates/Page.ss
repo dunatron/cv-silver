@@ -25,10 +25,30 @@ Change it, enhance it and most importantly enjoy it!
     <link rel="shortcut icon" href="$ThemeDir/images/favicon.ico" />
     <%-- Theme CSS --%>
     <link rel="stylesheet" href="$ThemeDir/public/css/app.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 </head>
+<% include Nav %>
 <body class="$ClassName">
 $Form
 $Layout
 </body>
+<!-- jQuery -->
+<script src="$ThemeDir/js/jquery-2.2.4.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="$ThemeDir/js/bootstrap-3.3.7.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="$ThemeDir/js/jquery-easing.min.js"></script>
+<script src="$ThemeDir/js/custom.js"></script>
+
+<!-- Liquid Slider JS -->
+<script type="text/javascript">
+
+
+
+
+</script>
 </html>
