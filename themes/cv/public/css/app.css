@@ -6271,8 +6271,55 @@ button.close {
   -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1); }
 
+@font-face {
+  font-family: 'GustanExtraBlack';
+  src: url("../../fonts/Gustan-Extrablack.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/Gustan-Extrablack.eot?#iefix") format("embedded-opentype"), url("../../fonts/Gustan-Extrablack.woff") format("woff"), url("../../fonts/Gustan-Extrablack.ttf") format("truetype"), url("../../fonts/Gustan-Extrablack.svg#ef7d172b8931fe8869f98304ff6066f8") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'GustanLight';
+  src: url("../../fonts/Gustan-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/Gustan-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/Gustan-Light.woff") format("woff"), url("../../fonts/Gustan-Light.ttf") format("truetype"), url("../../fonts/Gustan-Light.svg#9d512dae6aa2a2ee232766b663faffd9") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 200; }
+
+@font-face {
+  font-family: 'GustanMedium';
+  src: url("../../fonts/Gustan-Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/Gustan-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/Gustan-Medium.woff") format("woff"), url("../../fonts/Gustan-Medium.ttf") format("truetype"), url("../../fonts/Gustan-Medium.svg#030fa3b6f6a5b4326fcb463078ac66e3") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'GustanMediumD';
+  src: url("../../fonts/Gustan-Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/Gustan-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/Gustan-Medium.woff") format("woff"), url("../../fonts/Gustan-Medium.ttf") format("truetype"), url("../../fonts/Gustan-Medium.svg#030fa3b6f6a5b4326fcb463078ac66e3") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'GustanBold';
+  src: url("../../fonts/Gustan-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/Gustan-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Gustan-Bold.woff") format("woff"), url("../../fonts/Gustan-Bold.ttf") format("truetype"), url("../../fonts/Gustan-Bold.svg#80e9b74cb0db71e7cd1b07c8182605f1") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 700; }
+
+body {
+  margin-top: 80px; }
+
 .navbar-default .navbar-brand {
-  color: #c91B3D; }
+  color: #c91B3D;
+  font-family: GustanMedium; }
 
 .navbar-default .navbar-toggle {
   background-color: transparent;
@@ -6285,4 +6332,42 @@ button.close {
       background-color: #9D157F; }
 
 .navbar-default .navbar-collapse .navbar-nav li a {
-  color: #9D157F; }
+  color: #9D157F;
+  font-family: GustanLight; }
+
+.statement .intro-details .cv-name {
+  color: #D7601D;
+  font-family: GustanExtraBlack; }
+
+.statement .intro-details .fa-phone {
+  color: #c91B3D;
+  margin: 0 20px 0 0;
+  font-size: 18px; }
+  .statement .intro-details .fa-phone a {
+    font-family: GustanMedium;
+    color: #c91B3D; }
+  .statement .intro-details .fa-phone:before {
+    margin: 0 10px 0 0; }
+
+.statement .intro-details .fa-envelope-o {
+  font-size: 18px;
+  color: #c91B3D; }
+  .statement .intro-details .fa-envelope-o a {
+    font-family: GustanMedium;
+    color: #c91B3D; }
+  .statement .intro-details .fa-envelope-o:before {
+    margin: 0 10px 0 0; }
+
+.statement .intro-details .intro-content {
+  font-family: GustanLight;
+  font-size: 16px; }
+
+.statement .arrow-container {
+  text-align: center; }
+
+.statement .btn-arrow {
+  border-radius: 100px;
+  color: #D7601D; }
+
+.education {
+  text-align: center; }

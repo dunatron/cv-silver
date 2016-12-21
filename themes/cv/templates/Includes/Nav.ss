@@ -16,22 +16,22 @@
             <ul class="nav navbar-nav">
                 <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                 <li class="hidden">
-                    <a class="page-scroll" href="#statement"></a>
+                    <a class="page-scroll menu-scroll" href="#statement"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#education">Education</a>
+                    <a class="page-scroll menu-scroll" href="#education">Education</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#skills">Skills</a>
+                    <a class="page-scroll menu-scroll" href="#skills">Skills</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#experience">Experience</a>
+                    <a class="page-scroll menu-scroll" href="#experience">Experience</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#achievements">Achievements</a>
+                    <a class="page-scroll menu-scroll" href="#achievements">Achievements</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#references">References</a>
+                    <a class="page-scroll menu-scroll" href="#references">References</a>
                 </li>
             </ul>
         </div>

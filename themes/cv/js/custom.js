@@ -11,12 +11,13 @@ $( document ).ready(function() {
         }
     });
 
-//jQuery for page scrolling feature - requires jQuery Easing plugin
     $(function() {
-        $('a.page-scroll').bind('click', function(event) {
-            var $anchor = $(this);
+        $('a.scroll-down').bind('click', function(event) {
+            var anchor = $(this);
+            var myOffset = 22;
+
             $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top
+                scrollTop: $(anchor).offset().top + myOffset
             }, 1500, 'easeInOutExpo');
             event.preventDefault();
         });

@@ -5,6 +5,7 @@
 
   .navbar-brand {
     color: $c_primary;
+    font-family: $font_GustanMedium;
   }
 
   .navbar-toggle {
@@ -26,6 +27,7 @@
       li {
         a {
           color: $c_tertiary;
+          font-family: $font_GustanLight;
         }
       }
     }
