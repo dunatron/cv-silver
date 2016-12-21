@@ -85,6 +85,49 @@ class LandingPage_Controller extends Page_Controller
         $pages = EducationPage::get();
         return $pages;
     }
+
+    /*
+     * All Skill Objects
+     */
+    public function getSkills()
+    {
+        return Skill::get();
+    }
+
+    /**
+     * All Experience Objects
+     */
+    public function getExperiences()
+    {
+        return Experience::get();
+    }
+
+    /**
+     * Get Top Rated Referees
+     */
+    public function getTopReferees()
+    {
+        $ref = Reference::get()->sort('Rating', 'DESC')->limit(3);
+        return $ref;
+    }
+
+    /**
+     * Get All Achievements
+     */
+    public function getAchievements()
+    {
+        return Achievement::get();
+    }
+
+    /**
+     * Get All Achievement Types
+     */
+    public function getAchievementTypes()
+    {
+        return AchievementType::get();
+    }
+
+
 }
 
 

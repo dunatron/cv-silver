@@ -6270,3 +6270,19 @@ button.close {
   border-color: gainsboro;
   -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+.navbar-default .navbar-brand {
+  color: #c91B3D; }
+
+.navbar-default .navbar-toggle {
+  background-color: transparent;
+  border: none; }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #c91B3D; }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:focus {
+    background-color: transparent; }
+    .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:active .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+      background-color: #9D157F; }
+
+.navbar-default .navbar-collapse .navbar-nav li a {
+  color: #9D157F; }

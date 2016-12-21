@@ -1,2 +1,8 @@
 @import "bootstrap";
 @import "bootstrap/theme";
+
+// import custom base
+@import "base/base";
+
+// import nav styles
+@import "nav/nav";

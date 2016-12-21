@@ -2,26 +2,25 @@
 /**
  * Created by PhpStorm.
  * User: admin
- * Date: 17/10/16
- * Time: 2:30 PM
+ * Date: 21/12/16
+ * Time: 12:36 PM
  */
-
-class ExperienceAdmin extends ModelAdmin
+class AchievementTypeAdmin extends ModelAdmin
 {
     /**
      * @var array
      */
-    private static $managed_models = array('Experience');
+    private static $managed_models = array('AchievementType');
 
     /**
      * @var string
      */
-    private static $url_segment = 'Experiences';
+    private static $url_segment = 'AchievementTypes';
 
     /**
      * @var string
      */
-    private static $menu_title = 'Experiences';
+    private static $menu_title = 'AchievementTypes';
 
     /**
      * @param null $id
@@ -40,11 +39,7 @@ class ExperienceAdmin extends ModelAdmin
         $config->getComponentByType('GridFieldPaginator')->setItemsPerPage(20);
         $config->getComponentByType('GridFieldDataColumns')
             ->setDisplayFields(array(
-                'JobTitle'  =>  'JobTitle',
-                'StartDate'  => 'Start',
-                'EndDate' => 'End',
-                'IsCurrent' => 'IsCurrent',
-                'Body' => 'Body'
+                'Title'  => 'Text'
             ));
 
         return $form;

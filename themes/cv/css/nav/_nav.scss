@@ -1,0 +1,34 @@
+.navbar-default {
+  .navbar-header {
+
+  }
+
+  .navbar-brand {
+    color: $c_primary;
+  }
+
+  .navbar-toggle {
+    background-color: transparent;
+    border: none;
+    .icon-bar {
+      background-color: $c_primary;
+    }
+    &:hover, &:active, &:focus {
+      background-color: transparent;
+      .icon-bar {
+        background-color: $c_tertiary;
+      }
+    }
+  }
+  // Navbar collapse
+  .navbar-collapse {
+    .navbar-nav {
+      li {
+        a {
+          color: $c_tertiary;
+        }
+      }
+    }
+  }
+}
+
