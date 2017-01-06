@@ -1,4 +1,4 @@
-<div id="carousel-example-ncea3" class="carousel slide" data-ride="carousel">
+<div id="carousel-$ID" class="carousel slide" data-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="row">
         <div class="carousel-inner">
@@ -10,9 +10,9 @@
                             <table class="table">
                                 <thead>
                                 <tr>
-                                    <th>Achieved</th>
-                                    <th>Merit</th>
-                                    <th>Excellence</th>
+                                    <th class="text-center">Achieved</th>
+                                    <th class="text-center">Merit</th>
+                                    <th class="text-center">Excellence</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -37,12 +37,12 @@
     </div>
     <!-- Controls -->
     <%-- Previous slide --%>
-    <a class="left carousel-control" href="#carousel-example-ncea3"
+    <a class="left carousel-control" href="#carousel-$ID"
        data-slide="prev">
         <i class="fa fa-arrow-left"></i>
     </a>
     <%-- Next Slide --%>
-    <a class="right carousel-control" href="#carousel-example-ncea3" data-slide="next">
+    <a class="right carousel-control" href="#carousel-$ID" data-slide="next">
         <i class="fa fa-arrow-right"></i>
     </a>
 </div>

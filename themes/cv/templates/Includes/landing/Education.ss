@@ -14,8 +14,8 @@
                         <i>$Achievement</i></h3>
                     <h2><i>$Year</i></h2>
                     <%-- Accordion --%>
-                    <i class="fa fa-plus fa-2x" data-toggle="collapse" data-target="#bachelor"></i>
-                    <div id="bachelor" class="well collapse">
+                    <i class="fa fa-plus fa-2x" data-toggle="collapse" data-target="#{$ID}"></i>
+                    <div id="{$ID}" class="well collapse">
                         $EducationSummary
                             <%-- Loop Subjects --%>
                         <% if $Subjects %>
