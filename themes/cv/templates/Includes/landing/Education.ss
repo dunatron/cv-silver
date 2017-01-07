@@ -9,10 +9,8 @@
             <%-- Educational Years --%>
             <% loop $AssociatedEducationPages %>
                 <div class="col-lg-6">
-                    <h3> $Title
-                        <br>
-                        <i>$Achievement</i></h3>
-                    <h2><i>$Year</i></h2>
+                    <h3>$Title</h3>
+                    <h2 class="year-achieved"><i>$Year</i></h2>
                     <%-- Accordion --%>
                     <i class="fa fa-plus fa-2x" data-toggle="collapse" data-target="#{$ID}"></i>
                     <div id="{$ID}" class="well collapse">

@@ -85,6 +85,14 @@ class LandingPage_Controller extends Page_Controller
         parent::init();
     }
 
+    /*
+    * All Portfolio Objects
+    */
+    public function getPortfolioItems()
+    {
+        return Portfolio::get();
+    }
+
     public function AssociatedEducationPages()
     {
         $pages = EducationPage::get();

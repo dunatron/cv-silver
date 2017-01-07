@@ -1,5 +1,7 @@
 <% include Intro %>
 
+<% include Portfolio %>
+
 <% include Education %>
 
 <% include Skills %>

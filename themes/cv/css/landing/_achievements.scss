@@ -1,0 +1,33 @@
+.achievements {
+  padding: 25px 0;
+  h1 {
+    color: $c_black;
+    text-align: center;
+  }
+  .fa-trophy {
+    display: block;
+    color: $c_black;
+    text-align: center;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .toggle-text {
+    color: $c_black;
+    text-align: center;
+    color: $c_tertiary;
+  }
+
+  #achievments-accordion {
+    max-width: 515px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: none;
+    box-shadow: none;
+    background-color: transparent;
+    border: 1px solid $c_primary;
+    h3 {
+      color: $c_primary;
+    }
+  }
+}

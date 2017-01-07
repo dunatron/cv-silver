@@ -34,6 +34,9 @@ class SkillAdmin extends ModelAdmin
 
         $gridField = $form->Fields()
             ->fieldByName($this->sanitiseClassName($this->modelClass));
+        if($gridField instanceof GridField) {
+            $gridField->getConfig()->addComponent(new GridFieldSortableRows('SortOrder'));
+        }
 
         $config = $gridField->getConfig();
 

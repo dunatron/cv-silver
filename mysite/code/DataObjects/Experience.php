@@ -7,12 +7,15 @@
  */
 class Experience extends DataObject
 {
+    public static $default_sort='SortOrder';
+
     private static $db = array(
         'JobTitle'  =>  'Text',
         'IsCurrent' => 'Boolean',
         'StartDate' => 'Date',
         'EndDate' => 'Date',
-        'Body' => 'HTMLText'
+        'Body' => 'HTMLText',
+        'SortOrder'=>'Int'
     );
 
     private static $summary_fields = array(

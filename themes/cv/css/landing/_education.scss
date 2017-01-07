@@ -1,3 +1,80 @@
 .education {
   text-align: center;
+
+  h1 {
+    color: $c_black;
+  }
+
+  .year-achieved {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .fa-graduation-cap {
+    color: $c_black;
+  }
+
+  .fa-plus {
+    color: $c_secondary;
+  }
+
+  // accordion
+  .well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-image: none;
+    background-color: transparent;
+
+    border: 1px solid $c_primary;
+    border-radius: 4px;
+  }
+
+  .carousel {
+
+  }
+  .carousel-control {
+    background-image: none;
+
+    .left-control {
+      position: absolute;
+      top:12px;
+      right: 0;
+      height: 20px;
+      width: 20px;
+      border-top: 1px solid $c_tertiary;
+      border-left: 1px solid $c_tertiary;
+      transform: rotate(-45deg);
+
+      transition: right 0.25s;
+    }
+    .right-control{
+      position: absolute;
+      top:12px;
+      left: 0;
+      height: 20px;
+      width: 20px;
+      border-top: 1px solid $c_tertiary;
+      border-right: 1px solid $c_tertiary;
+      transform: rotate(45deg);
+      transition: left 0.25s;
+    }
+    &:hover {
+      .left-control {
+        right: 15px;
+        transition: right 0.25s;
+      }
+      .right-control{
+        left: 15px;
+        transition: left 0.25s;
+      }
+    }
+  }
+
+
+  .carousel-content {
+    h3 {
+      color: $c_primary;
+    }
+  }
 }

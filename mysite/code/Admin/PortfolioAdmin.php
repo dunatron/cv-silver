@@ -1,27 +1,26 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: admin
- * Date: 17/10/16
- * Time: 2:30 PM
+ * User: Heath
+ * Date: 7/01/17
+ * Time: 9:45 PM
  */
-
-class ExperienceAdmin extends ModelAdmin
+class PortfolioAdmin extends ModelAdmin
 {
     /**
      * @var array
      */
-    private static $managed_models = array('Experience');
+    private static $managed_models = array('Portfolio');
 
     /**
      * @var string
      */
-    private static $url_segment = 'Experiences';
+    private static $url_segment = 'Portfolios';
 
     /**
      * @var string
      */
-    private static $menu_title = 'Experiences';
+    private static $menu_title = 'Portfolios';
 
     /**
      * @param null $id
@@ -43,12 +42,19 @@ class ExperienceAdmin extends ModelAdmin
         $config->getComponentByType('GridFieldPaginator')->setItemsPerPage(20);
         $config->getComponentByType('GridFieldDataColumns')
             ->setDisplayFields(array(
-                'JobTitle'  =>  'JobTitle',
-                'StartDate'  => 'Start',
-                'EndDate' => 'End',
-                'IsCurrent' => 'IsCurrent',
-                'Body' => 'Body'
+                'SiteURL'  => 'SiteURL',
+                'About' => 'About'
             ));
+//        $config->getComponentByType('GridFieldDataColumns')
+//            ->setFieldFormatting(array(
+//                'Logo' => function ($val, $obj) {
+//                    if (method_exists($obj, 'getThumbnail')) {
+//                        return $obj->getThumbnail();
+//                    } else {
+//                        return $obj;
+//                    }
+//                },
+//            ));
 
         return $form;
     }

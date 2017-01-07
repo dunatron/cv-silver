@@ -44,6 +44,9 @@ $Layout
 <script src="$ThemeDir/js/jquery-easing.min.js"></script>
 <script src="$ThemeDir/js/custom.js"></script>
 
+<script src="$ThemeDir/js/jquery.slides.min.js"></script>
+<script src="$ThemeDir/js/jquery-slides.js"></script>
+
 <!-- Liquid Slider JS -->
 <script type="text/javascript">
 

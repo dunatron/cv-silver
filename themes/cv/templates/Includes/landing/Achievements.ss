@@ -5,7 +5,7 @@
             <div class="col-lg-12">
                 <h1>Achievements</h1>
                 <i class="fa fa-trophy fa-3x" data-toggle="collapse" data-target="#achievments-accordion"></i>
-                <p>( Toggle Me )</p>
+                <p class="toggle-text">( Toggle Me )</p>
                 <div id="achievments-accordion" class="well collapse">
                     <% loop $getAchievementTypes %>
                         <ul class="list-unstyled">

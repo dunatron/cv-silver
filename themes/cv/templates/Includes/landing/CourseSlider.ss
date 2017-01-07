@@ -39,10 +39,12 @@
     <%-- Previous slide --%>
     <a class="left carousel-control" href="#carousel-$ID"
        data-slide="prev">
-        <i class="fa fa-arrow-left"></i>
+        <%--<i class="fa fa-arrow-left"></i>--%>
+        <div class="left-control"></div>
     </a>
     <%-- Next Slide --%>
     <a class="right carousel-control" href="#carousel-$ID" data-slide="next">
-        <i class="fa fa-arrow-right"></i>
+        <%--<i class="fa fa-arrow-right"></i>--%>
+        <div class="right-control"></div>
     </a>
 </div>

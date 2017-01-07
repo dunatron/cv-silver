@@ -1,0 +1,18 @@
+.skills {
+  h1 {
+    color: $c_black;
+    text-align: center;
+  }
+
+  .fa-diamond {
+    display: block;
+    color: $c_black;
+    text-align: center;
+  }
+
+  .progress {
+    .progress-bar {
+      background-image: none;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.experience {
+  h1{
+    color: $c_black;
+    text-align: center;
+  }
+  .fa-calendar-o {
+    display: block;
+    color: $c_black;
+    text-align: center;
+  }
+
+  .experience-item {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid $c_tertiary;
+    margin-bottom: 10px;
+    .experience-details {
+      .title {
+        color: $c_primary;
+        font-size: 18px;
+      }
+      .date {
+        color: $c_tertiary;
+        font-size: 12px;
+      }
+    }
+    .experience-body {
+
+    }
+  }
+}

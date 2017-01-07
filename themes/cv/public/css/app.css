@@ -6369,5 +6369,160 @@ body {
   border-radius: 100px;
   color: #D7601D; }
 
+.portfolio h1 {
+  color: #444444;
+  text-align: center; }
+
+.portfolio #carousel-portfolio {
+  margin-top: 40px; }
+  .portfolio #carousel-portfolio .carousel-control {
+    width: 20px;
+    height: 20px;
+    background-image: none;
+    top: -70px;
+    opacity: 1; }
+  .portfolio #carousel-portfolio .next-site-left {
+    border-top: 1px solid #9D157F;
+    border-left: 1px solid #9D157F;
+    transform: rotate(-45deg);
+    left: 10%; }
+    @media screen and (min-width: 560px) {
+      .portfolio #carousel-portfolio .next-site-left {
+        left: 15%; } }
+    @media screen and (min-width: 768px) {
+      .portfolio #carousel-portfolio .next-site-left {
+        left: 20%; } }
+    @media screen and (min-width: 1200px) {
+      .portfolio #carousel-portfolio .next-site-left {
+        left: 30%; } }
+  .portfolio #carousel-portfolio .next-site-right {
+    border-top: 1px solid #9D157F;
+    border-right: 1px solid #9D157F;
+    transform: rotate(45deg);
+    right: 10%; }
+    @media screen and (min-width: 560px) {
+      .portfolio #carousel-portfolio .next-site-right {
+        right: 15%; } }
+    @media screen and (min-width: 768px) {
+      .portfolio #carousel-portfolio .next-site-right {
+        right: 20%; } }
+    @media screen and (min-width: 1200px) {
+      .portfolio #carousel-portfolio .next-site-right {
+        right: 30%; } }
+
 .education {
+  text-align: center; }
+  .education h1 {
+    color: #444444; }
+  .education .year-achieved {
+    font-size: 18px;
+    margin-top: 10px; }
+  .education .fa-graduation-cap {
+    color: #444444; }
+  .education .fa-plus {
+    color: #D7601D; }
+  .education .well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-image: none;
+    background-color: transparent;
+    border: 1px solid #c91B3D;
+    border-radius: 4px; }
+  .education .carousel-control {
+    background-image: none; }
+    .education .carousel-control .left-control {
+      position: absolute;
+      top: 12px;
+      right: 0;
+      height: 20px;
+      width: 20px;
+      border-top: 1px solid #9D157F;
+      border-left: 1px solid #9D157F;
+      transform: rotate(-45deg);
+      transition: right 0.25s; }
+    .education .carousel-control .right-control {
+      position: absolute;
+      top: 12px;
+      left: 0;
+      height: 20px;
+      width: 20px;
+      border-top: 1px solid #9D157F;
+      border-right: 1px solid #9D157F;
+      transform: rotate(45deg);
+      transition: left 0.25s; }
+    .education .carousel-control:hover .left-control {
+      right: 15px;
+      transition: right 0.25s; }
+    .education .carousel-control:hover .right-control {
+      left: 15px;
+      transition: left 0.25s; }
+  .education .carousel-content h3 {
+    color: #c91B3D; }
+
+.skills h1 {
+  color: #444444;
+  text-align: center; }
+
+.skills .fa-diamond {
+  display: block;
+  color: #444444;
+  text-align: center; }
+
+.skills .progress .progress-bar {
+  background-image: none; }
+
+.experience h1 {
+  color: #444444;
+  text-align: center; }
+
+.experience .fa-calendar-o {
+  display: block;
+  color: #444444;
+  text-align: center; }
+
+.experience .experience-item {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #9D157F;
+  margin-bottom: 10px; }
+  .experience .experience-item .experience-details .title {
+    color: #c91B3D;
+    font-size: 18px; }
+  .experience .experience-item .experience-details .date {
+    color: #9D157F;
+    font-size: 12px; }
+
+.achievements {
+  padding: 25px 0; }
+  .achievements h1 {
+    color: #444444;
+    text-align: center; }
+  .achievements .fa-trophy {
+    display: block;
+    color: #444444;
+    text-align: center; }
+    .achievements .fa-trophy:hover {
+      cursor: pointer; }
+  .achievements .toggle-text {
+    color: #444444;
+    text-align: center;
+    color: #9D157F; }
+  .achievements #achievments-accordion {
+    max-width: 515px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: none;
+    box-shadow: none;
+    background-color: transparent;
+    border: 1px solid #c91B3D; }
+    .achievements #achievments-accordion h3 {
+      color: #c91B3D; }
+
+.references h1 {
+  color: #444444;
+  text-align: center; }
+
+.references p {
   text-align: center; }

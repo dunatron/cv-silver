@@ -13,9 +13,8 @@
             <% loop $getExperiences %>
                 <div class="experience-item">
                     <div class="experience-details">
-                        $JobTitle
-                        $DateRange
-
+                        <span class="title">$JobTitle</span>
+                        <span class="date">$DateRange</span>
                     </div>
                     <div class="experience-body">
                         $Body

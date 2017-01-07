@@ -1,0 +1,50 @@
+.portfolio {
+
+  h1 {
+    color: $c_black;
+    text-align: center;
+  }
+
+  #carousel-portfolio {
+    margin-top: 40px;
+    .carousel-control {
+      width: 20px;
+      height: 20px;
+      background-image: none;
+      top:-70px;
+      opacity: 1;
+    }
+    .next-site-left {
+      border-top: 1px solid $c_tertiary;
+      border-left: 1px solid $c_tertiary;
+      transform: rotate(-45deg);
+      left:10%;
+      @media screen and (min-width: $break-560) {
+        left:15%;
+      }
+      @media screen and (min-width: $break-768) {
+        left:20%;
+      }
+      @media screen and (min-width: $break-1200) {
+        left:30%;
+      }
+    }
+    .next-site-right {
+      border-top: 1px solid $c_tertiary;
+      border-right: 1px solid $c_tertiary;
+      transform: rotate(45deg);
+      right:10%;
+      @media screen and (min-width: $break-560) {
+        right:15%;
+      }
+      @media screen and (min-width: $break-768) {
+        right:20%;
+      }
+      @media screen and (min-width: $break-1200) {
+        right:30%;
+      }
+    }
+
+
+  }
+}
