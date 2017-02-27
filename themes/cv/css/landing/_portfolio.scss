@@ -47,4 +47,45 @@
 
 
   }
+  // Image Slider | BxSlider
+  .bx-wrapper {
+    position: relative;
+    .bx-viewport {
+
+    }
+    .bx-controls {
+      width: 100%;
+      position: absolute;
+      //top:45%;
+      top:-webkit-calc(50% - #{$box_displacement});
+      top:-moz-calc(50% - #{$box_displacement});
+      top:calc(50% - #{$box_displacement});
+
+      .bx-controls-direction {
+        .bx-prev {
+          position: absolute;
+          height: $box_height;
+          width: $box_width;
+          background: rgba(255,255,255,0.5);
+          left: 0;
+          @include arrow_left;
+        }
+        .bx-next {
+          position: absolute;
+          height: $box_height;
+          width: $box_width;
+          background: rgba(255,255,255,0.5);
+          right: 0;
+          @include arrow_right;
+        }
+      }
+      .bx-pager {
+        display: none;
+      }
+      .disabled {
+        display: none;
+      }
+
+    }
+  }
 }

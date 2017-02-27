@@ -16,17 +16,15 @@
                                     <div class="carousel-content">
                                         <div class="col-md-8 portfolio-images">
 
-                                            <div class="w3-content w3-display-container">
+                                            <ul class="portfolio-images-bxslider">
                                                 <% loop $PortfolioImages %>
-                                                    <img class="mySlides" src="$URL" style="width:100%">
+                                                    <li><img class="mySlides" src="$URL" style="width:100%"></li>
                                                 <% end_loop %>
-                                                <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
-                                                <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
-                                            </div>
+                                            </ul>
 
                                         </div>
                                         <div class="col-md-4 portfolio-details">
-                                            <h1>$SiteURL</h1>
+                                            <a href="$SiteURL" class="animate-link">$SiteURL</a>
                                             <h1>$About</h1>
                                         </div>
                                     </div>

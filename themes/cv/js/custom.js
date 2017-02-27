@@ -2,6 +2,10 @@
  * Created by admin on 20/12/16.
  */
 $( document ).ready(function() {
+
+    // Selectors
+    var PortfolioImageSlider = $('.portfolio-images-bxslider');
+
     //jQuery to collapse the navbar on scroll
     $(window).scroll(function() {
         if ($(".navbar").offset().top > 50) {
@@ -42,4 +46,22 @@ $( document ).ready(function() {
             interval: false
         })
     }
+
+    // bxslider config
+    var bxSliderOptions = {
+        slideWidth: 320,
+        minSlides: 1,
+        maxSlides: 4,
+        slideMargin: 10,
+        responsive: true,
+        touchEnabled: true,
+        auto: false,
+        nextText:'',
+        prevText:''
+    };
+
+
+    // Portfolio Images slider (bxslider)
+    $(PortfolioImageSlider).bxSlider(bxSliderOptions);
+
 });

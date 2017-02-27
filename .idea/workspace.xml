@@ -2,52 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="141213a5-e9b4-4112-91b0-886c3068a4b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Black.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-BlackItalic.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Bold.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-BoldItalic.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Book.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-BookItalic.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Extrablack.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Extrablack.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Extrablack.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Extrablack.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-ExtrablackItalic.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-ExtraboldItalic.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Light.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Light.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Light.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-LightItalic.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Medium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-MediumItalic.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Thin.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-ThinItalic.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/css/landing/_achievements.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/css/landing/_education.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/css/landing/_intro.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/css/landing/_landing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/css/landing/_referees.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/css/landing/_skills.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Bold.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Extrablack.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Light.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/fonts/Gustan-Medium.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/js/jquery.bxslider.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/cv/js/jquery-slides.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/css/editor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/css/form.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/css/layout.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/css/typography.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/images/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/images/blockquote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/javascript/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/BreadCrumbs.ss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/Footer.ss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/Header.ss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/Navigation.ss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/SideBar.ss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/SidebarMenu.ss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Layout/Page.ss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Layout/Page_results.ss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Page.ss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/Cambo SIL OFL Font License 1.1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/Cambo-Regular-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/Cambo-Regular-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/Cambo-Regular-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/Cambo-Regular-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/generator_config.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/websymbols-regular-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/websymbols-regular-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/websymbols-regular-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/websymbols-regular-webfont.woff" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/css/app.scss" afterPath="$PROJECT_DIR$/themes/cv/css/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/_config/config.yml" afterPath="$PROJECT_DIR$/mysite/_config/config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/css/base/_common.scss" afterPath="$PROJECT_DIR$/themes/cv/css/base/_common.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/css/base/_fonts.scss" afterPath="$PROJECT_DIR$/themes/cv/css/base/_fonts.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/css/base/_mixins.scss" afterPath="$PROJECT_DIR$/themes/cv/css/base/_mixins.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/css/base/_variables.scss" afterPath="$PROJECT_DIR$/themes/cv/css/base/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/css/nav/_nav.scss" afterPath="$PROJECT_DIR$/themes/cv/css/nav/_nav.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/css/landing/_portfolio.scss" afterPath="$PROJECT_DIR$/themes/cv/css/landing/_portfolio.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/js/custom.js" afterPath="$PROJECT_DIR$/themes/cv/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/public/css/app.css" afterPath="$PROJECT_DIR$/themes/cv/public/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/templates/Includes/Nav.ss" afterPath="$PROJECT_DIR$/themes/cv/templates/Includes/Nav.ss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Intro.ss" afterPath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Intro.ss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss" afterPath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/templates/Page.ss" afterPath="$PROJECT_DIR$/themes/cv/templates/Page.ss" />
     </list>
     <ignored path="cv-cms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,48 +71,98 @@
       <file leaf-file-name="LandingPage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/code/PageTypes/LandingPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1939">
+            <state relative-caret-position="2508">
               <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AchievementType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/code/DataObjects/AchievementType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Achievements.ss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Achievements.ss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Achievement.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/code/DataObjects/Achievement.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_education.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_education.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/cv/css/landing/_education.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="209">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/cv/js/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_portfolio.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/cv/css/landing/_portfolio.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/cv/css/base/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/cv/css/base/_mixins.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Portfolio.ss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.bxslider.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/cv/js/jquery.bxslider.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="6" column="2719" selection-start-line="6" selection-start-column="2719" selection-end-line="6" selection-end-column="2719" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Page.ss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/cv/templates/Page.ss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -145,7 +195,6 @@
         <option value="$PROJECT_DIR$/mysite/code/Admin/AchievementAdmin.php" />
         <option value="$PROJECT_DIR$/mysite/code/Admin/ReferenceAdmin.php" />
         <option value="$PROJECT_DIR$/mysite/code/DataObjects/Reference.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/mysite/_config.php" />
         <option value="$PROJECT_DIR$/themes/cv/js/bootstrap-3.3.7.min.js" />
@@ -166,20 +215,25 @@
         <option value="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Achievements.ss" />
         <option value="$PROJECT_DIR$/mysite/code/DataObjects/Achievement.php" />
         <option value="$PROJECT_DIR$/themes/cv/css/base/_base.scss" />
-        <option value="$PROJECT_DIR$/themes/cv/css/base/_mixins.scss" />
         <option value="$PROJECT_DIR$/themes/cv/css/app.scss" />
         <option value="$PROJECT_DIR$/themes/cv/css/landing/_landing.scss" />
         <option value="$PROJECT_DIR$/themes/cv/css/base/_fonts.scss" />
-        <option value="$PROJECT_DIR$/themes/cv/css/base/_variables.scss" />
         <option value="$PROJECT_DIR$/themes/cv/css/nav/_nav.scss" />
-        <option value="$PROJECT_DIR$/themes/cv/css/base/_common.scss" />
         <option value="$PROJECT_DIR$/themes/cv/js/jquery-2.2.4.min.js" />
-        <option value="$PROJECT_DIR$/themes/cv/templates/Page.ss" />
         <option value="$PROJECT_DIR$/themes/cv/templates/Includes/Nav.ss" />
-        <option value="$PROJECT_DIR$/themes/cv/js/custom.js" />
         <option value="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Intro.ss" />
         <option value="$PROJECT_DIR$/themes/cv/css/landing/_intro.scss" />
         <option value="$PROJECT_DIR$/themes/cv/css/landing/_education.scss" />
+        <option value="$PROJECT_DIR$/mysite/_config/config.yml" />
+        <option value="$PROJECT_DIR$/themes/cv/js/jquery-slides.js" />
+        <option value="$PROJECT_DIR$/themes/cv/templates/Page.ss" />
+        <option value="$PROJECT_DIR$/themes/cv/css/base/_common.scss" />
+        <option value="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss" />
+        <option value="$PROJECT_DIR$/themes/cv/js/custom.js" />
+        <option value="$PROJECT_DIR$/themes/cv/css/base/_mixins.scss" />
+        <option value="$PROJECT_DIR$/themes/cv/css/base/_variables.scss" />
+        <option value="$PROJECT_DIR$/themes/cv/css/landing/_portfolio.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -191,7 +245,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="292" />
+    <option name="x" value="291" />
     <option name="y" value="23" />
     <option name="width" value="1970" />
     <option name="height" value="1353" />
@@ -221,6 +275,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -236,20 +291,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cv" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cv" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -549,7 +590,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -562,11 +602,12 @@
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/themes/cv" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/themes/cv/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/cv/js" />
+      <recent name="$PROJECT_DIR$/themes/cv" />
     </key>
   </component>
   <component name="RunManager">
@@ -660,17 +701,19 @@
       <workItem from="1482286768568" duration="36000" />
       <workItem from="1482286826929" duration="17000" />
       <workItem from="1482286868743" duration="3725000" />
+      <workItem from="1488227802371" duration="2370000" />
+      <workItem from="1488230819959" duration="3813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32502000" />
+    <option name="totallyTimeSpent" value="38685000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="292" y="23" width="1970" height="1353" extended-state="0" />
-    <editor active="false" />
+    <frame x="291" y="23" width="1970" height="1353" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23651452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24118257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Reviews" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -679,7 +722,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="News Feed" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29896906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.58762884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -737,55 +780,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cv/js/bootstrap-3.3.7.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cv/js/jquery-easing.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/_config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_ss_environment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/code/PageTypes/EducationPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/code/Admin/SkillAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/code/DataObjects/Skill.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -811,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,7 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="647">
           <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -928,13 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cv/css/base/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/cv/css/app.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -966,14 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cv/css/base/_common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/cv/css/nav/_nav.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -986,14 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cv/css/base/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1022,27 +991,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cv/templates/Page.ss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/Nav.ss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cv/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,9 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="6" column="16995" selection-start-line="6" selection-start-column="16995" selection-end-line="6" selection-end-column="16995" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1060,7 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,7 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="40" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,7 +1031,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1092,30 +1038,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/code/DataObjects/Achievement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/_config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cv/js/jquery-slides.js" />
+    <entry file="file://$PROJECT_DIR$/mysite/code/Page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/code/PageTypes/LandingPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1939">
+        <state relative-caret-position="2508">
           <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/code/DataObjects/Achievement.php">
+    <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        <state relative-caret-position="152">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cv/css/base/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cv/templates/Page.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cv/js/jquery.bxslider.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="6" column="2719" selection-start-line="6" selection-start-column="2719" selection-end-line="6" selection-end-column="2719" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/cv/css/landing/_education.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="209">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cv/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cv/css/base/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cv/css/base/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cv/css/landing/_portfolio.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
           <folding />
         </state>
       </provider>

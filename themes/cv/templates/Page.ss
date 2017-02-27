@@ -42,16 +42,10 @@ $Layout
 
 <!-- Scrolling Nav JavaScript -->
 <script src="$ThemeDir/js/jquery-easing.min.js"></script>
+<%-- BX Slider --%>
+<script src="$ThemeDir/js/jquery.bxslider.min.js"></script>
+<%-- Custom JS --%>
 <script src="$ThemeDir/js/custom.js"></script>
 
-<script src="$ThemeDir/js/jquery.slides.min.js"></script>
-<script src="$ThemeDir/js/jquery-slides.js"></script>
 
-<!-- Liquid Slider JS -->
-<script type="text/javascript">
-
-
-
-
-</script>
 </html>

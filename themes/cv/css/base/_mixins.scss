@@ -11,3 +11,39 @@
     clear: both;
   }
 }
+
+@mixin arrow_left {
+  &:before {
+    @include show_psuedo;
+    position: absolute;
+    top:-webkit-calc(50% - 10px);
+    top:-moz-calc(50% - 10px);
+    top:calc(50% - 10px);
+    left:-webkit-calc(50% - 10px);
+    left:-moz-calc(50% - 10px);
+    left:calc(50% - 10px);
+    width: 20px;
+    height: 20px;
+    border-top: 1px solid $c_tertiary;
+    border-left: 1px solid $c_tertiary;
+    transform: rotate(-45deg);
+  }
+}
+
+@mixin arrow_right {
+  &:before {
+    @include show_psuedo;
+    position: absolute;
+    top:-webkit-calc(50% - 10px);
+    top:-moz-calc(50% - 10px);
+    top:calc(50% - 10px);
+    right:-webkit-calc(50% - 10px);
+    right:-moz-calc(50% - 10px);
+    right:calc(50% - 10px);
+    width: 20px;
+    height: 20px;
+    border-top: 1px solid $c_tertiary;
+    border-right: 1px solid $c_tertiary;
+    transform: rotate(45deg);
+  }
+}

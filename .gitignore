@@ -15,3 +15,12 @@ _ss_environment.php
 /siteconfig/
 .editorconfig
 favicon.ico
+/install-frameworkmissing.html
+install.php
+web.config
+atlassian-ide-plugin.xml
+.htaccess
+index.php
+/themes/simple/
+.idea/dictionaries/admin.xml
+.idea/workspace.xml
