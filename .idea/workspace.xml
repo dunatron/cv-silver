@@ -2,52 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="141213a5-e9b4-4112-91b0-886c3068a4b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/js/jquery.bxslider.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/cv/js/jquery-slides.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/css/editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/css/form.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/css/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/css/typography.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/images/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/images/blockquote.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/javascript/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/BreadCrumbs.ss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/Footer.ss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/Header.ss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/Navigation.ss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/SideBar.ss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/SidebarMenu.ss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Layout/Page.ss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Layout/Page_results.ss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/templates/Page.ss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/Cambo SIL OFL Font License 1.1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/Cambo-Regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/Cambo-Regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/Cambo-Regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/Cambo-Regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/generator_config.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/websymbols-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/websymbols-regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/websymbols-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/simple/webfonts/websymbols-regular-webfont.woff" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/_config/config.yml" afterPath="$PROJECT_DIR$/mysite/_config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/css/base/_common.scss" afterPath="$PROJECT_DIR$/themes/cv/css/base/_common.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/css/base/_mixins.scss" afterPath="$PROJECT_DIR$/themes/cv/css/base/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/css/base/_variables.scss" afterPath="$PROJECT_DIR$/themes/cv/css/base/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/css/landing/_portfolio.scss" afterPath="$PROJECT_DIR$/themes/cv/css/landing/_portfolio.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/js/custom.js" afterPath="$PROJECT_DIR$/themes/cv/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/public/css/app.css" afterPath="$PROJECT_DIR$/themes/cv/public/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss" afterPath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/templates/Page.ss" afterPath="$PROJECT_DIR$/themes/cv/templates/Page.ss" />
     </list>
     <ignored path="cv-cms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/cv/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+            <state relative-caret-position="1024">
+              <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -108,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="380">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -229,11 +185,11 @@
         <option value="$PROJECT_DIR$/themes/cv/templates/Page.ss" />
         <option value="$PROJECT_DIR$/themes/cv/css/base/_common.scss" />
         <option value="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss" />
-        <option value="$PROJECT_DIR$/themes/cv/js/custom.js" />
         <option value="$PROJECT_DIR$/themes/cv/css/base/_mixins.scss" />
         <option value="$PROJECT_DIR$/themes/cv/css/base/_variables.scss" />
         <option value="$PROJECT_DIR$/themes/cv/css/landing/_portfolio.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/themes/cv/js/custom.js" />
       </list>
     </option>
   </component>
@@ -702,12 +658,12 @@
       <workItem from="1482286826929" duration="17000" />
       <workItem from="1482286868743" duration="3725000" />
       <workItem from="1488227802371" duration="2370000" />
-      <workItem from="1488230819959" duration="3813000" />
+      <workItem from="1488230819959" duration="3963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38685000" />
+    <option name="totallyTimeSpent" value="38835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="291" y="23" width="1970" height="1353" extended-state="0" />
@@ -722,7 +678,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="News Feed" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.58762884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58762884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1114,14 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cv/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/cv/css/base/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1148,8 +1096,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="380">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cv/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1024">
+          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
           <folding />
         </state>
       </provider>

@@ -60,6 +60,8 @@ $( document ).ready(function() {
         prevText:''
     };
 
+    //WTF EH
+
 
     // Portfolio Images slider (bxslider)
     $(PortfolioImageSlider).bxSlider(bxSliderOptions);
