@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="141213a5-e9b4-4112-91b0-886c3068a4b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/js/custom.js" afterPath="$PROJECT_DIR$/themes/cv/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss" afterPath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss" />
     </list>
     <ignored path="cv-cms.iws" />
@@ -98,8 +97,8 @@
       <file leaf-file-name="Portfolio.ss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="380">
+              <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -630,12 +629,12 @@
       <workItem from="1482286868743" duration="3725000" />
       <workItem from="1488227802371" duration="2370000" />
       <workItem from="1488230819959" duration="4589000" />
-      <workItem from="1488240961173" duration="1458000" />
+      <workItem from="1488240961173" duration="1786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40919000" />
+    <option name="totallyTimeSpent" value="41247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="291" y="23" width="1970" height="1353" extended-state="0" />
@@ -1077,8 +1076,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="380">
+          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
           <folding />
         </state>
       </provider>
