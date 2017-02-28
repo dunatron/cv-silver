@@ -40,6 +40,10 @@ $( document ).ready(function() {
 
     setCarouselTimer('#carousel-example');
 
+    $('#carousel-portfolio').on('slide.bs.carousel', function () {
+        doBxSlider();
+    });
+
     function setCarouselTimer()
     {
         $('.carousel').carousel({
@@ -49,7 +53,7 @@ $( document ).ready(function() {
 
     // bxslider config
     var bxSliderOptions = {
-        slideWidth: 320,
+        // slideWidth: 320,
         minSlides: 1,
         maxSlides: 4,
         slideMargin: 10,
@@ -64,8 +68,11 @@ $( document ).ready(function() {
 
     //WTF EH
 
+    function doBxSlider(){
+        // Portfolio Images slider (bxslider)
+        $(PortfolioImageSlider).bxSlider(bxSliderOptions);
+    }
 
-    // Portfolio Images slider (bxslider)
-    $(PortfolioImageSlider).bxSlider(bxSliderOptions);
+    doBxSlider();
 
 });
