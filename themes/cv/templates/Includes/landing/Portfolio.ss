@@ -18,7 +18,7 @@
 
                                             <ul class="portfolio-images-bxslider">
                                                 <% loop $PortfolioImages %>
-                                                    $Me.CroppedImage(640,360)
+                                                    $Me.CroppedImage(320,180)
                                                     <%--<li><img class="mySlides" src="$URL" style="width:100%"--%>
                                                              <%--height="$Height" width="$Width"></li>--%>
                                                 <% end_loop %>

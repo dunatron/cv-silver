@@ -51,7 +51,7 @@
   .bx-wrapper {
     position: relative;
     .bx-viewport {
-
+      min-height: $bx_slider_min_height;
     }
     .bx-controls {
       width: 100%;
@@ -86,6 +86,13 @@
         display: none;
       }
 
+    }
+  }
+
+  .portfolio-images-bxslider {
+    img {
+      min-width: $bx_slider_min_width;
+      min-height: $bx_slider_min_height;
     }
   }
 }

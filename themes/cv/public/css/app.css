@@ -6437,6 +6437,8 @@ body {
 
 .portfolio .bx-wrapper {
   position: relative; }
+  .portfolio .bx-wrapper .bx-viewport {
+    min-height: 180px; }
   .portfolio .bx-wrapper .bx-controls {
     width: 100%;
     position: absolute;
@@ -6489,6 +6491,10 @@ body {
       display: none; }
     .portfolio .bx-wrapper .bx-controls .disabled {
       display: none; }
+
+.portfolio .portfolio-images-bxslider img {
+  min-width: 320px;
+  min-height: 180px; }
 
 .education {
   text-align: center; }
