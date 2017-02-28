@@ -40,7 +40,8 @@ $( document ).ready(function() {
 
     setCarouselTimer('#carousel-example');
 
-    $('#carousel-portfolio').on('slide.bs.carousel', function () {
+    // Re-activate bxslider after portfolio item change
+    $('#carousel-portfolio').on('slid.bs.carousel', function () {
         doBxSlider();
     });
 
@@ -65,8 +66,6 @@ $( document ).ready(function() {
         adaptiveHeight: true,
         adaptiveHeightSpeed:500
     };
-
-    //WTF EH
 
     function doBxSlider(){
         // Portfolio Images slider (bxslider)
