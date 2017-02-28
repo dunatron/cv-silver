@@ -57,7 +57,9 @@ $( document ).ready(function() {
         touchEnabled: true,
         auto: false,
         nextText:'',
-        prevText:''
+        prevText:'',
+        adaptiveHeight: true,
+        adaptiveHeightSpeed:500
     };
 
     //WTF EH

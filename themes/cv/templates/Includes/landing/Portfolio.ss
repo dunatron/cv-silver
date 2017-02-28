@@ -18,14 +18,16 @@
 
                                             <ul class="portfolio-images-bxslider">
                                                 <% loop $PortfolioImages %>
-                                                    <li><img class="mySlides" src="$URL" style="width:100%"></li>
+                                                    $Me.CroppedImage(320,180)
+                                                    <%--<li><img class="mySlides" src="$URL" style="width:100%"--%>
+                                                             <%--height="$Height" width="$Width"></li>--%>
                                                 <% end_loop %>
                                             </ul>
 
                                         </div>
                                         <div class="col-md-4 portfolio-details">
                                             <a href="$SiteURL" class="animate-link">$SiteURL</a>
-                                            <h1>$About</h1>
+                                            <p>$About</p>
                                         </div>
                                     </div>
                                 </div>
