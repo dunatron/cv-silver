@@ -58,7 +58,6 @@ $( document ).ready(function() {
         //$('.portfolioModal').modal.show();
         var pathname = window.location.pathname,
             PORTFOLIOID = $(this).attr('data-portfolio-id');
-        console.log('');
         $.ajax({
             type:"POST",
             url: pathname + 'Home/getPortFolioData', /* Name it Home(PageuRL) till further notice ( I need to know

@@ -147,10 +147,24 @@ class LandingPage_Controller extends Page_Controller
      */
     public function getPortFolioData(){
         if (isset($_POST['portfolioID'])) {
-           return 'Too many , niggas, not enough hoes, and most of you niggas acting like hoes';
+          $portfolioID = ($_POST['portfolioID']);
+            //$portfolio = Portfolio::get_by_id('ID',$portfolioID);
+            $portfolio = Portfolio::get()->byID($portfolioID);
+            //$images = PortfolioImages;
+            $bannerImage = $portfolio->BannerImage();
+            $relatedImages = $portfolio->PortfolioImages();
+
+            $data = new ArrayData(array(
+                'PortfolioTitle'  =>  $portfolio->SiteURL,
+                'Stuff' =>  $portfolio->About,
+                'BannerImage'   =>  $bannerImage,
+                'AssocImages'  =>  $relatedImages
+            ));
+            echo $data->renderWith('PortFolioAjaxData');
         } else {
-            return 'smile at my face and talk behing my baack';
+            return 'How, and why?';
         }
+
 
     }
 
