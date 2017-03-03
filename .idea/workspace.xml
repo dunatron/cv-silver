@@ -48,8 +48,8 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/cv/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+            <state relative-caret-position="551">
+              <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -709,12 +709,12 @@
       <workItem from="1488240961173" duration="1786000" />
       <workItem from="1488273359358" duration="3537000" />
       <workItem from="1488529594857" duration="2820000" />
-      <workItem from="1488534996376" duration="7905000" />
+      <workItem from="1488534996376" duration="8103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55509000" />
+    <option name="totallyTimeSpent" value="55707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="373" y="107" width="1870" height="1276" extended-state="0" />
@@ -1127,8 +1127,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/cv/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+        <state relative-caret-position="551">
+          <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
           <folding />
         </state>
       </provider>

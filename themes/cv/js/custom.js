@@ -58,7 +58,7 @@ $( document ).ready(function() {
         //$('.portfolioModal').modal.show();
         var pathname = window.location.pathname,
             PORTFOLIOID = $(this).attr('data-portfolio-id');
-        console.log('Pathname' + pathname);
+        alert('Pathname' + pathname);
         console.log('portfolioID' + PORTFOLIOID);
         $.ajax({
             type:"POST",
