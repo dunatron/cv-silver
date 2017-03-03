@@ -14,6 +14,10 @@ class Portfolio extends DataObject {
         'SortOrder'=>'Int'
     );
 
+    private static $has_one = array(
+        'BannerImage'   =>  'Image'
+    );
+
     private static $many_many = array(
         'PortfolioImages' => 'Image'
     );

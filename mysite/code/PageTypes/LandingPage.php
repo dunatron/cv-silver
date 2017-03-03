@@ -78,7 +78,9 @@ class LandingPage_Controller extends Page_Controller
      * );
      * @var array
      */
-    private static $allowed_actions = array();
+    private static $allowed_actions = array(
+        'getPortFolioData'
+    );
 
     public function init()
     {
@@ -138,6 +140,18 @@ class LandingPage_Controller extends Page_Controller
     public function getAchievementTypes()
     {
         return AchievementType::get();
+    }
+
+    /**
+     * Get PortfolioData
+     */
+    public function getPortFolioData(){
+        if (isset($_POST['portfolioID'])) {
+           return 'Too many , niggas, not enough hoes, and most of you niggas acting like hoes';
+        } else {
+            return 'smile at my face and talk behing my baack';
+        }
+
     }
 
 

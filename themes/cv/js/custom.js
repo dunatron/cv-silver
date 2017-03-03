@@ -5,6 +5,8 @@ $( document ).ready(function() {
 
     // Selectors
     var PortfolioImageSlider = $('.portfolio-images-bxslider');
+        portfolioModal = $('#portfolioModal');
+        //portfolioCaseItem = ('.tradItTron');
 
     //jQuery to collapse the navbar on scroll
     $(window).scroll(function() {
@@ -42,7 +44,7 @@ $( document ).ready(function() {
 
     // Re-activate bxslider after portfolio item change
     $('#carousel-portfolio').on('slid.bs.carousel', function () {
-        doBxSlider();
+        console.log('unneeded so far ');
     });
 
     function setCarouselTimer()
@@ -52,26 +54,30 @@ $( document ).ready(function() {
         })
     }
 
-    // bxslider config
-    var bxSliderOptions = {
-        // slideWidth: 320,
-        minSlides: 1,
-        maxSlides: 4,
-        slideMargin: 10,
-        responsive: true,
-        touchEnabled: true,
-        auto: false,
-        nextText:'',
-        prevText:'',
-        adaptiveHeight: true,
-        adaptiveHeightSpeed:500
-    };
+    $('.soBored').on('click', function () {
+        //$('.portfolioModal').modal.show();
+        var pathname = window.location.pathname,
+            PORTFOLIOID = $(this).attr('data-portfolio-id');
+        console.log('');
+        $.ajax({
+            type:"POST",
+            url: pathname + 'Home/getPortFolioData', /* Name it Home(PageuRL) till further notice ( I need to know
+            ways around this, always slug? I dunno)*/
+            data: {portfolioID:PORTFOLIOID},
 
-    function doBxSlider(){
-        // Portfolio Images slider (bxslider)
-        $(PortfolioImageSlider).bxSlider(bxSliderOptions);
-    }
+            success: function (response) {
+                $('.portfolio-stuff-mr-adams').html(response);
+                console.log(response);
+            },
+            complete: function(){ // I shower this clean too
+                $(portfolioModal).modal({
+                    show: true
+                });
+            }
+        });
 
-    doBxSlider();
+    })
+
+
 
 });
