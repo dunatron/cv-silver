@@ -30,8 +30,35 @@ class Page_Controller extends ContentController {
 
 	public function init() {
 		parent::init();
+		// Scroll Reveal | https://github.com/jlmakes/scrollreveal
+		
 		// You can include any CSS or JS required by your project here.
 		// See: http://doc.silverstripe.org/framework/en/reference/requirements
+
+		$themeFolder = $this->ThemeDir();
+
+		// Set the folder to our theme so that relative image paths work
+		Requirements::set_combined_files_folder($themeFolder . '/combinedfiles');
+
+		// Add all our css files to combine into an array
+		$CSSFiles = array(
+			$themeFolder . '/css/main.css'
+		);
+
+		// Add all our files to combine into an array
+		$JSFiles = array(
+			$themeFolder . '/js/jquery-2.2.4.min.js',
+			$themeFolder . '/js/bootstrap-3.3.7.min.js',
+			$themeFolder . '/js/jquery-easing.min.js',
+			$themeFolder . '/js/jquery.bxslider.min.js',
+			$themeFolder . '/js/scrollreveal.min.js',
+			$themeFolder . '/js/custom.js'
+		);
+		// Combine css files
+		Requirements::combine_files('styles.js', $CSSFiles);
+
+		// Combine js files
+		Requirements::combine_files('scripts.js', $JSFiles);
 	}
 
 }

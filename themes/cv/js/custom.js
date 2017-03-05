@@ -75,8 +75,12 @@ $( document ).ready(function() {
             }
         });
 
-    })
+    });
 
-
+    // JavaScript
+    window.sr = ScrollReveal();
+    sr.reveal('.progress');
+    sr.reveal('.experience-item');
+    
 
 });

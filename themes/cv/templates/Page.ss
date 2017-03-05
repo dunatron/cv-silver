@@ -35,17 +35,20 @@ $Form
 $Layout
 </body>
 <!-- jQuery -->
-<script src="$ThemeDir/js/jquery-2.2.4.min.js"></script>
+<%--<script src="$ThemeDir/js/jquery-2.2.4.min.js"></script>--%>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="$ThemeDir/js/bootstrap-3.3.7.min.js"></script>
+<%--<!-- Bootstrap Core JavaScript -->--%>
+<%--<script src="$ThemeDir/js/bootstrap-3.3.7.min.js"></script>--%>
 
-<!-- Scrolling Nav JavaScript -->
-<script src="$ThemeDir/js/jquery-easing.min.js"></script>
+<%--<!-- Scrolling Nav JavaScript -->--%>
+<%--<script src="$ThemeDir/js/jquery-easing.min.js"></script>--%>
 <%-- BX Slider --%>
-<script src="$ThemeDir/js/jquery.bxslider.min.js"></script>
+<%--<script src="$ThemeDir/js/jquery.bxslider.min.js"></script>--%>
 <%-- Custom JS --%>
-<script src="$ThemeDir/js/custom.js"></script>
+<%--<script src="$ThemeDir/js/custom.js"></script>--%>
+<%-- Scroll Reveal --%>
+
+<%--Requirements::javascript('https://unpkg.com/scrollreveal/dist/scrollreveal.min.js');--%>
 
 
 </html>
