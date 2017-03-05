@@ -87,7 +87,8 @@ $( document ).ready(function() {
         easing   : 'ease-in-out',
         width   : 0,
         scale    : 1.2,
-        origin : 'bottomGIT STATUS', // bottom, left , top right
+        rotate   : { z: 10 }, // x y z
+        origin : 'right', // bottom, left , top right
         viewFactor: 0.3
     };
 

@@ -4,10 +4,6 @@
     <list default="true" id="141213a5-e9b4-4112-91b0-886c3068a4b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/js/custom.js" afterPath="$PROJECT_DIR$/themes/cv/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Achievements.ss" afterPath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Achievements.ss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Intro.ss" afterPath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Intro.ss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/templates/Layout/LandingPage.ss" afterPath="$PROJECT_DIR$/themes/cv/templates/Layout/LandingPage.ss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/templates/Page.ss" afterPath="$PROJECT_DIR$/themes/cv/templates/Page.ss" />
     </list>
     <ignored path="cv-cms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +28,7 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/cv/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
+            <state relative-caret-position="446">
               <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
               <folding />
             </state>
@@ -704,12 +700,12 @@
       <workItem from="1488534996376" duration="10445000" />
       <workItem from="1488681285624" duration="2862000" />
       <workItem from="1488684273421" duration="2327000" />
-      <workItem from="1488691893831" duration="2890000" />
+      <workItem from="1488691893831" duration="3151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66128000" />
+    <option name="totallyTimeSpent" value="66389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="589" y="211" width="1870" height="1276" extended-state="0" />
@@ -1137,7 +1133,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/cv/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
+        <state relative-caret-position="446">
           <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
           <folding />
         </state>
