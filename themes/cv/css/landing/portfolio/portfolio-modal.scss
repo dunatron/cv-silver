@@ -1,0 +1,37 @@
+#portfolioModal{
+  padding: 0;
+  padding-right: 0 !important;
+  .modal-dialog{
+    //width: 100%;
+    //@include breakpoint($break_560){
+    //  width: 100%;
+    //}
+    @include breakpoint($break_768){
+      width: 768px;
+    }
+    @include breakpoint($break_992){
+      width: 992px;
+    }
+    @include breakpoint($break_1000){
+      width: 1000px;
+    }
+  }
+  .modal-content {
+    border-radius: 0;
+  }
+  .modal-header {
+
+  }
+  .modal-body{
+    padding: 0;
+  }
+  .modal-footer {
+
+  }
+  .close-portfolio-modal {
+    position: absolute;
+    z-index: 1000;
+    top:0;
+    right: 0;
+  }
+}

@@ -65,7 +65,7 @@ $( document ).ready(function() {
             data: {portfolioID:PORTFOLIOID},
 
             success: function (response) {
-                $('.portfolio-stuff-mr-adams').html(response);
+                $('.portfolio-stuff ').html(response);
                 console.log(response);
             },
             complete: function(){ // I shower this clean too

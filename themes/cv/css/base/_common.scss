@@ -35,3 +35,11 @@ hr {
     transform: scaleX(1);
   }
 }
+
+.left-arrow {
+  @include arrow_left;
+}
+
+.right-arrow {
+  @include arrow_right;
+}

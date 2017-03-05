@@ -1,6 +1,8 @@
 @import "bootstrap";
 @import "bootstrap/theme";
 
+@import "../node_modules/breakpoint-sass/stylesheets/breakpoint"; // init?
+
 // import custom base
 @import "base/base";
 

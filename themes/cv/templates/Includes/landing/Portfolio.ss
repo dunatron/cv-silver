@@ -32,10 +32,8 @@
 
                                             </picture>
                                         </div>
-                                        <div class="col-md-4 portfolio-details">
-                                            <a href="$SiteURL" class="animate-link">$SiteURL</a>
-                                            <p>$About</p>
-                                        </div>
+                                        <% include PortfolioDetails %>
+
                                     </div>
                                 </div>
                             <% end_loop %>

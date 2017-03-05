@@ -6,10 +6,12 @@ $c_tertiary:#9D157F;
 $c_black:#444444;
 
 // Breaks
-$break-320: 320px;
-$break-560: 560px;
-$break-768: 768px;
-$break-1200:  1200px;
+$break_320: 320px;
+$break_560: 560px;
+$break_768: 768px;
+$break_992:992px;
+$break_1000:1000px;
+$break_1200:  1200px;
 
 // Font-families
 $font_GustanExtraBlack: GustanExtraBlack;
@@ -17,6 +19,14 @@ $font_GustanLight: GustanLight;
 $font_GustanMedium: GustanMedium;
 $font_GustanMediumD: GustanMediumD;
 $font_GustanBold: GustanBold;
+
+$font_primary_family:$font_GustanLight;
+$font_secondary_family:$font_GustanMedium;
+
+// weights
+$light_weight:100;
+$regular_weight:300;
+$heavy_weight:500;
 
 
 // controls background box
@@ -26,3 +36,9 @@ $box_displacement: $box_height / 2;
 
 $bx_slider_min_height:180px;
 $bx_slider_min_width:320px;
+
+// Fonts
+$fs_portfolio_item_title:26px;
+$lh_portfolio_item_title:30px;
+
+$font_portfolio_item_title:$regular_weight #{$fs_portfolio_item_title}/#{$lh_portfolio_item_title} $font_primary_family;

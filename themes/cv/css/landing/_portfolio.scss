@@ -47,52 +47,7 @@
 
 
   }
-  // Image Slider | BxSlider
-  .bx-wrapper {
-    position: relative;
-    .bx-viewport {
-      min-height: $bx_slider_min_height;
-    }
-    .bx-controls {
-      width: 100%;
-      position: absolute;
-      //top:45%;
-      top:-webkit-calc(50% - #{$box_displacement});
-      top:-moz-calc(50% - #{$box_displacement});
-      top:calc(50% - #{$box_displacement});
+  @import "portfolio/portfolio-details";
+  @import "portfolio/portfolio-modal";
 
-      .bx-controls-direction {
-        .bx-prev {
-          position: absolute;
-          height: $box_height;
-          width: $box_width;
-          background: rgba(255,255,255,0.5);
-          left: 0;
-          @include arrow_left;
-        }
-        .bx-next {
-          position: absolute;
-          height: $box_height;
-          width: $box_width;
-          background: rgba(255,255,255,0.5);
-          right: 0;
-          @include arrow_right;
-        }
-      }
-      .bx-pager {
-        display: none;
-      }
-      .disabled {
-        display: none;
-      }
-
-    }
-  }
-
-  .portfolio-images-bxslider {
-    img {
-      min-width: $bx_slider_min_width;
-      min-height: $bx_slider_min_height;
-    }
-  }
 }
