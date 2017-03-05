@@ -54,4 +54,12 @@ class Experience extends DataObject
         $fullDate = $formatStart . ' - ' . $formatEnd;
         return $fullDate;
     }
+
+    public function TimeAtJob(){
+        $start = new DateTime($this->StartDate);
+        $finish = new DateTime($this->EndDate);
+        $interval = $start->diff($finish);
+        //echo $interval->format('%R%a days');
+        return  $interval->format('Y:%y M:%m D:%d');
+    }
 }

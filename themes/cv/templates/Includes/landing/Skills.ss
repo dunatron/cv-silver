@@ -2,7 +2,7 @@
 <section id="skills" class="skills">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 title-wrap">
 
                 <h1>Skills</h1>
                 <i class="fa fa-diamond fa-5x"

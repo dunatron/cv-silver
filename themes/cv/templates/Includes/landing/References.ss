@@ -3,11 +3,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1>References</h1>
+                <h1 class="references-title">References</h1>
                 <hr>
                 <% if $getTopReferees %>
                     <% loop $getTopReferees %>
-                        <div class="col-md-4">
+                        <div class="col-md-4 referee-item">
                             <p>$Name</p>
                             <p>$Position</p>
                             <p>$Phone</p>

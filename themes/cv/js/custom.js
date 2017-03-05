@@ -77,10 +77,52 @@ $( document ).ready(function() {
 
     });
 
+    var experienceRevealConfig = {
+        delay    : 100,
+        distance : '140px', //90 original
+        easing   : 'ease-in-out',
+        rotate   : { z: 10 }, // x y z
+        width   : 0,
+        scale    : 1.2,
+        origin : 'bottom', // bottom, left , top right
+        viewFactor: 0.3
+    };
+
+    var achievementTitleConfig = {
+        delay    : 150,
+        distance : '240px', //90 original
+        easing   : 'ease-in-out',
+        width   : 0,
+        scale    : 1.2,
+        origin : 'left', // bottom, left , top right
+        viewFactor: 0.3
+    };
+    var achievementToggleConfig = {
+        delay    : 150,
+        distance : '240px', //90 original
+        easing   : 'ease-in-out',
+        width   : 0,
+        scale    : 1.2,
+        origin : 'right', // bottom, left , top right
+        viewFactor: 0.3
+    };
+
     // JavaScript
     window.sr = ScrollReveal();
     sr.reveal('.progress');
-    sr.reveal('.experience-item');
-    
+    sr.reveal('.experience-item', experienceRevealConfig);
+    sr.reveal('.achievements');
+    sr.reveal('.references-title');
+    sr.reveal('.title-wrap');
+    sr.reveal('.referee-item');
+    sr.reveal('.achievement-title', achievementTitleConfig);
+    sr.reveal('.achievement-toggle-wrap', achievementToggleConfig);
+
+
+
+
+
+
+
 
 });
