@@ -2,7 +2,7 @@
 
 <% include Portfolio %>
 
-<% include Education %>
+<%--<% include Education %>--%>
 
 <% include Skills %>
 

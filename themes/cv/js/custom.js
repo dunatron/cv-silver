@@ -77,6 +77,41 @@ $( document ).ready(function() {
 
     });
 
+    var cvNameConfig = {
+        duration    : 500
+    };
+
+    var introContentConfig = {
+        delay    : 100,
+        distance : '150px', //90 original
+        easing   : 'ease-in-out',
+        width   : 0,
+        scale    : 1.2,
+        origin : 'bottomGIT STATUS', // bottom, left , top right
+        viewFactor: 0.3
+    };
+
+
+    var portfolioImageConfig = {
+        delay    : 100,
+        distance : '150px', //90 original
+        easing   : 'cubic-bezier(.25,.1,.25,1)',
+        width   : 0,
+        scale    : 1.2,
+        origin : 'left', // bottom, left , top right
+        viewFactor: 0.3
+    };
+
+    var scrollDownConfig = {
+        delay    : 100,
+        distance : '100px', //90 original
+        easing   : 'cubic-bezier(.25,.1,.25,1)',
+        width   : 0,
+        scale    : 1.2,
+        origin : 'bottom', // bottom, left , top right
+        viewFactor: 0.3
+    };
+
     var experienceRevealConfig = {
         delay    : 100,
         distance : '140px', //90 original
@@ -109,6 +144,11 @@ $( document ).ready(function() {
 
     // JavaScript
     window.sr = ScrollReveal();
+    sr.reveal('.cv-name', cvNameConfig);
+    sr.reveal('.contact-details-wrap');
+    sr.reveal('.intro-content', introContentConfig);
+    sr.reveal('.cv-portfolio-image', portfolioImageConfig);
+    sr.reveal('.scroll-down', scrollDownConfig);
     sr.reveal('.progress');
     sr.reveal('.experience-item', experienceRevealConfig);
     sr.reveal('.achievements');
@@ -117,6 +157,7 @@ $( document ).ready(function() {
     sr.reveal('.referee-item');
     sr.reveal('.achievement-title', achievementTitleConfig);
     sr.reveal('.achievement-toggle-wrap', achievementToggleConfig);
+
 
 
 

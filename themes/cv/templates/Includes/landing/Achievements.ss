@@ -3,8 +3,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="achievement-title">Achievements</h1>
-                <div class="achievement-toggle-wrap">
+                <h1 class="achievement-title" style="visibility: hidden;">Achievements</h1>
+                <div class="achievement-toggle-wrap" style="visibility: hidden;">
                     <i class="fa fa-trophy fa-3x" data-toggle="collapse" data-target="#achievments-accordion"></i>
                     <p class="toggle-text">( Toggle Me )</p>
                 </div>
