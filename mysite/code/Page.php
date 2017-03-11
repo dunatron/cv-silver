@@ -59,6 +59,11 @@ class Page_Controller extends ContentController {
 
 		// Combine js files
 		Requirements::combine_files('scripts.js', $JSFiles);
+
+		$visitorAddress = $this->getIP();
+		$visitor = Visitor::create();
+		$visitor->IPAddress = $visitorAddress;
+		$visitor->write();
 	}
 
 	/**
