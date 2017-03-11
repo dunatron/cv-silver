@@ -162,12 +162,9 @@ class LandingPage_Controller extends Page_Controller
             ));
             echo $data->renderWith('PortFolioAjaxData');
         } else {
-            return 'How, and why?';
+            return 'No Portfolio data for the specified ID G';
         }
-
-
     }
-
 
 }
 

@@ -30,7 +30,7 @@ Change it, enhance it and most importantly enjoy it!
 
 </head>
 <% include Nav %>
-<body class="$ClassName" style="overflow-x: hidden">
+<body class="$ClassName" style="overflow-x: hidden" data-ip-address="$getIP">
 $Form
 $Layout
 </body>
