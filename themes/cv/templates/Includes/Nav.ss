@@ -18,20 +18,20 @@
                 <li class="hidden">
                     <a class="page-scroll menu-scroll" href="#statement"></a>
                 </li>
+                <%--<li>--%>
+                    <%--<a class="page-scroll menu-scroll" href="#education">Education</a>--%>
+                <%--</li>--%>
                 <li>
-                    <a class="page-scroll menu-scroll" href="#education">Education</a>
+                    <a class="page-scroll menu-scroll" href="#skills" id="nav-skills">Skills</a>
                 </li>
                 <li>
-                    <a class="page-scroll menu-scroll" href="#skills">Skills</a>
+                    <a class="page-scroll menu-scroll" href="#experience" id="nav-experience">Experience</a>
                 </li>
                 <li>
-                    <a class="page-scroll menu-scroll" href="#experience">Experience</a>
+                    <a class="page-scroll menu-scroll" href="#achievements" id="nav-achievements">Achievements</a>
                 </li>
                 <li>
-                    <a class="page-scroll menu-scroll" href="#achievements">Achievements</a>
-                </li>
-                <li>
-                    <a class="page-scroll menu-scroll" href="#references">References</a>
+                    <a class="page-scroll menu-scroll" href="#references" id="nav-references">References</a>
                 </li>
             </ul>
         </div>

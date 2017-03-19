@@ -4,10 +4,47 @@
 $( document ).ready(function() {
 
     // Selectors
-    var PortfolioImageSlider = $('.portfolio-images-bxslider');
-        portfolioModal = $('#portfolioModal'),
+    var portfolioModal = $('#portfolioModal'),
         portfolioModalContent   =   $('.portfolio-stuff');
         //portfolioCaseItem = ('.tradItTron');
+
+    // Nav selectors
+    var skillNav = $('#nav-skills'),
+        experienceNav = $('#nav-experience'),
+        achievementNav  =   $('#nav-achievements'),
+        referenceNav    =   $('#nav-references');
+
+    $(skillNav).on('click', function(e){
+        e.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $("#skills").offset().top
+        }, 1000);
+    });
+
+    $(experienceNav).on('click', function(e){
+        e.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $("#experience").offset().top
+        }, 1000);
+    });
+
+    $(achievementNav).on('click', function(e){
+        e.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $("#achievements").offset().top
+        }, 1000);
+    });
+
+    $(referenceNav).on('click', function(e){
+        e.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $("#references").offset().top
+        }, 1000);
+    });
 
     //jQuery to collapse the navbar on scroll
     $(window).scroll(function() {
@@ -42,11 +79,6 @@ $( document ).ready(function() {
     });
 
     setCarouselTimer('#carousel-example');
-
-    // Re-activate bxslider after portfolio item change
-    $('#carousel-portfolio').on('slid.bs.carousel', function () {
-        console.log('unneeded so far ');
-    });
 
     function setCarouselTimer()
     {
@@ -161,13 +193,6 @@ $( document ).ready(function() {
     sr.reveal('.referee-item');
     sr.reveal('.achievement-title', achievementTitleConfig);
     sr.reveal('.achievement-toggle-wrap', achievementToggleConfig);
-
-
-
-
-
-
-
 
 
 });

@@ -12,6 +12,7 @@ Change it, enhance it and most importantly enjoy it!
 <!--[if IE 6 ]><html lang="$ContentLocale" class="ie ie6"><![endif]-->
 <!--[if IE 7 ]><html lang="$ContentLocale" class="ie ie7"><![endif]-->
 <!--[if IE 8 ]><html lang="$ContentLocale" class="ie ie8"><![endif]-->
+
 <head>
     <% base_tag %>
     <title><% if $MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
@@ -34,21 +35,5 @@ Change it, enhance it and most importantly enjoy it!
 $Form
 $Layout
 </body>
-<!-- jQuery -->
-<%--<script src="$ThemeDir/js/jquery-2.2.4.min.js"></script>--%>
-
-<%--<!-- Bootstrap Core JavaScript -->--%>
-<%--<script src="$ThemeDir/js/bootstrap-3.3.7.min.js"></script>--%>
-
-<%--<!-- Scrolling Nav JavaScript -->--%>
-<%--<script src="$ThemeDir/js/jquery-easing.min.js"></script>--%>
-<%-- BX Slider --%>
-<%--<script src="$ThemeDir/js/jquery.bxslider.min.js"></script>--%>
-<%-- Custom JS --%>
-<%--<script src="$ThemeDir/js/custom.js"></script>--%>
-<%-- Scroll Reveal --%>
-
-<%--Requirements::javascript('https://unpkg.com/scrollreveal/dist/scrollreveal.min.js');--%>
-
 
 </html>
