@@ -43,3 +43,23 @@ hr {
 .right-arrow {
   @include arrow_right;
 }
+
+.loading {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  min-height: 320px;
+  min-width: 320px;
+  &:before {
+    @include show_psuedo;
+    position: absolute;
+    background-image: url('../../img/ajax/ajax-loader.gif');
+    background-color: rgba(255,255,255,0.7);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    z-index: 110;
+  }
+}

@@ -4,7 +4,8 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-body">
-                <button type="button" class="close close-portfolio-modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <%--<button type="button" class="close close-portfolio-modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>--%>
+                <div class="close" data-dismiss="modal"></div>
                 <div class="portfolio-stuff">
 
                 </div>

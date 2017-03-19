@@ -45,6 +45,11 @@
       }
     }
 
+    .soBored {
+      &:hover {
+        cursor: pointer;
+      }
+    }
 
   }
   @import "portfolio/portfolio-details";

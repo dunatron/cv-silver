@@ -13,6 +13,8 @@ $break_992:992px;
 $break_1000:1000px;
 $break_1200:  1200px;
 
+$transition_speed: 0.25s;
+
 // Font-families
 $font_GustanExtraBlack: GustanExtraBlack;
 $font_GustanLight: GustanLight;
@@ -39,6 +41,6 @@ $bx_slider_min_width:320px;
 
 // Fonts
 $fs_portfolio_item_title:26px;
-$lh_portfolio_item_title:30px;
+$lh_portfolio_item_title:32px;
 
 $font_portfolio_item_title:$regular_weight #{$fs_portfolio_item_title}/#{$lh_portfolio_item_title} $font_primary_family;

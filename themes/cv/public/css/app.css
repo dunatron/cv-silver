@@ -6374,6 +6374,25 @@ body {
   border-right: 1px solid #9D157F;
   transform: rotate(45deg); }
 
+.loading {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  min-height: 320px;
+  min-width: 320px; }
+  .loading:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url("../../img/ajax/ajax-loader.gif");
+    background-color: rgba(255, 255, 255, 0.7);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    z-index: 110; }
+
 .navbar-default .navbar-brand {
   color: #c91B3D;
   font-family: GustanMedium; }
@@ -6466,9 +6485,11 @@ body {
     @media screen and (min-width: 1200px) {
       .portfolio #carousel-portfolio .next-site-right {
         right: 30%; } }
+  .portfolio #carousel-portfolio .soBored:hover {
+    cursor: pointer; }
 
 .portfolio .portfolio-details .portfolio-title {
-  font: 300 26px/30px GustanLight; }
+  font: 300 26px/32px GustanLight; }
 
 .portfolio #portfolioModal {
   padding: 0;
@@ -6483,7 +6504,8 @@ body {
     .portfolio #portfolioModal .modal-dialog {
       width: 1000px; } }
   .portfolio #portfolioModal .modal-content {
-    border-radius: 0; }
+    border-radius: 0;
+    border: none; }
   .portfolio #portfolioModal .modal-body {
     padding: 0; }
   .portfolio #portfolioModal .close-portfolio-modal {
@@ -6491,6 +6513,36 @@ body {
     z-index: 1000;
     top: 0;
     right: 0; }
+  .portfolio #portfolioModal .carousel-control.right {
+    height: 80px;
+    top: calc(50% - 40px);
+    opacity: 1;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0001) 0%, rgba(255, 255, 255, 0.5) 100%);
+    background-repeat: repeat-x; }
+    .portfolio #portfolioModal .carousel-control.right:hover {
+      opacity: 1; }
+  .portfolio #portfolioModal .carousel-control.left {
+    height: 80px;
+    top: calc(50% - 40px);
+    opacity: 1;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0001) 0%, rgba(255, 255, 255, 0.5) 100%);
+    background-repeat: repeat-x; }
+    .portfolio #portfolioModal .carousel-control.left:hover {
+      opacity: 1; }
+  .portfolio #portfolioModal .close {
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url("../../img/svg/close.svg");
+    background-repeat: no-repeat;
+    background-color: #9D157F;
+    opacity: 0.8;
+    z-index: 200;
+    transition: opacity 0.25s ease-in; }
+    .portfolio #portfolioModal .close:hover {
+      opacity: 1; }
 
 .education {
   text-align: center; }

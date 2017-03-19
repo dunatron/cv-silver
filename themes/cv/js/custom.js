@@ -5,7 +5,8 @@ $( document ).ready(function() {
 
     // Selectors
     var PortfolioImageSlider = $('.portfolio-images-bxslider');
-        portfolioModal = $('#portfolioModal');
+        portfolioModal = $('#portfolioModal'),
+        portfolioModalContent   =   $('.portfolio-stuff');
         //portfolioCaseItem = ('.tradItTron');
 
     //jQuery to collapse the navbar on scroll
@@ -55,12 +56,16 @@ $( document ).ready(function() {
     }
 
     $('.soBored').on('click', function () {
-        //$('.portfolioModal').modal.show();
+        $(portfolioModalContent).addClass('loading');
+        $(portfolioModal).modal({
+            show: true
+        });
+        $(portfolioModalContent).html('LOADING');
         var pathname = window.location.pathname,
             PORTFOLIOID = $(this).attr('data-portfolio-id');
         $.ajax({
             type:"POST",
-            url: pathname + 'Home/getPortFolioData', /* Name it Home(PageuRL) till further notice ( I need to know
+            url: pathname + 'Home/getPortFolioData', /* Name it Home(PageURL) till further notice ( I need to know
             ways around this, always slug? I dunno)*/
             data: {portfolioID:PORTFOLIOID},
 
@@ -68,10 +73,8 @@ $( document ).ready(function() {
                 $('.portfolio-stuff ').html(response);
                 console.log(response);
             },
-            complete: function(){ // I shower this clean too
-                $(portfolioModal).modal({
-                    show: true
-                });
+            complete: function(){
+                $(portfolioModalContent).removeClass('loading');
             }
         });
 
