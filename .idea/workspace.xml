@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="141213a5-e9b4-4112-91b0-886c3068a4b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/img/ajax/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/cv/img/svg/close.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/cv/gulpfile.js" afterPath="$PROJECT_DIR$/themes/cv/Gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/css/base/_common.scss" afterPath="$PROJECT_DIR$/themes/cv/css/base/_common.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/css/base/_variables.scss" afterPath="$PROJECT_DIR$/themes/cv/css/base/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/css/landing/_portfolio.scss" afterPath="$PROJECT_DIR$/themes/cv/css/landing/_portfolio.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/css/landing/portfolio/portfolio-modal.scss" afterPath="$PROJECT_DIR$/themes/cv/css/landing/portfolio/portfolio-modal.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/js/custom.js" afterPath="$PROJECT_DIR$/themes/cv/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/public/css/app.css" afterPath="$PROJECT_DIR$/themes/cv/public/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/portfolio/PortFolioAjaxData.ss" afterPath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/portfolio/PortFolioAjaxData.ss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/portfolio/PortFolioModal.ss" afterPath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/portfolio/PortFolioModal.ss" />
     </list>
     <ignored path="cv-cms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,8 +78,8 @@
       <file leaf-file-name="portfolio-modal.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/cv/css/landing/portfolio/portfolio-modal.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+            <state relative-caret-position="354">
+              <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -793,12 +783,12 @@
       <workItem from="1489883078858" duration="732000" />
       <workItem from="1489884040533" duration="1476000" />
       <workItem from="1489886652369" duration="187000" />
-      <workItem from="1489886903001" duration="520000" />
+      <workItem from="1489886903001" duration="982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72377000" />
+    <option name="totallyTimeSpent" value="72839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="97" y="80" width="1970" height="1353" extended-state="0" />
@@ -1215,8 +1205,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/cv/css/landing/portfolio/portfolio-modal.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+        <state relative-caret-position="354">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
           <folding />
         </state>
       </provider>

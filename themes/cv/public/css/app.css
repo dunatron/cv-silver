@@ -6517,6 +6517,8 @@ body {
     height: 80px;
     top: calc(50% - 40px);
     opacity: 1;
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.0001) 0%, rgba(255, 255, 255, 0.5) 100%);
+    background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0.0001) 0%, rgba(255, 255, 255, 0.5) 100%);
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0001) 0%, rgba(255, 255, 255, 0.5) 100%);
     background-repeat: repeat-x; }
     .portfolio #portfolioModal .carousel-control.right:hover {
@@ -6525,7 +6527,9 @@ body {
     height: 80px;
     top: calc(50% - 40px);
     opacity: 1;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0001) 0%, rgba(255, 255, 255, 0.5) 100%);
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.0001) 100%);
+    background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.0001) 100%);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.0001) 100%);
     background-repeat: repeat-x; }
     .portfolio #portfolioModal .carousel-control.left:hover {
       opacity: 1; }
