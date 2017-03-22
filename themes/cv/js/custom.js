@@ -1,20 +1,20 @@
 /**
  * Created by admin on 20/12/16.
  */
-$( document ).ready(function() {
+$(document).ready(function () {
 
     // Selectors
     var portfolioModal = $('#portfolioModal'),
-        portfolioModalContent   =   $('.portfolio-stuff');
-        //portfolioCaseItem = ('.tradItTron');
+        portfolioModalContent = $('.portfolio-stuff');
+    //portfolioCaseItem = ('.tradItTron');
 
     // Nav selectors
     var skillNav = $('#nav-skills'),
         experienceNav = $('#nav-experience'),
-        achievementNav  =   $('#nav-achievements'),
-        referenceNav    =   $('#nav-references');
+        achievementNav = $('#nav-achievements'),
+        referenceNav = $('#nav-references');
 
-    $(skillNav).on('click', function(e){
+    $(skillNav).on('click', function (e) {
         e.preventDefault();
 
         $('html, body').animate({
@@ -22,7 +22,7 @@ $( document ).ready(function() {
         }, 1000);
     });
 
-    $(experienceNav).on('click', function(e){
+    $(experienceNav).on('click', function (e) {
         e.preventDefault();
 
         $('html, body').animate({
@@ -30,7 +30,7 @@ $( document ).ready(function() {
         }, 1000);
     });
 
-    $(achievementNav).on('click', function(e){
+    $(achievementNav).on('click', function (e) {
         e.preventDefault();
 
         $('html, body').animate({
@@ -38,7 +38,7 @@ $( document ).ready(function() {
         }, 1000);
     });
 
-    $(referenceNav).on('click', function(e){
+    $(referenceNav).on('click', function (e) {
         e.preventDefault();
 
         $('html, body').animate({
@@ -47,7 +47,7 @@ $( document ).ready(function() {
     });
 
     //jQuery to collapse the navbar on scroll
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if ($(".navbar").offset().top > 50) {
             $(".navbar-fixed-top").addClass("top-nav-collapse");
         } else {
@@ -55,8 +55,8 @@ $( document ).ready(function() {
         }
     });
 
-    $(function() {
-        $('a.scroll-down').bind('click', function(event) {
+    $(function () {
+        $('a.scroll-down').bind('click', function (event) {
             var anchor = $(this);
             var myOffset = 22;
 
@@ -80,8 +80,7 @@ $( document ).ready(function() {
 
     setCarouselTimer('#carousel-example');
 
-    function setCarouselTimer()
-    {
+    function setCarouselTimer() {
         $('.carousel').carousel({
             interval: false
         })
@@ -96,85 +95,86 @@ $( document ).ready(function() {
         var pathname = window.location.pathname,
             PORTFOLIOID = $(this).attr('data-portfolio-id');
         $.ajax({
-            type:"POST",
+            type: "POST",
             url: pathname + 'Home/getPortFolioData', /* Name it Home(PageURL) till further notice ( I need to know
-            ways around this, always slug? I dunno)*/
-            data: {portfolioID:PORTFOLIOID},
+             ways around this, always slug? I dunno)*/
+            data: {portfolioID: PORTFOLIOID},
 
             success: function (response) {
                 $('.portfolio-stuff ').html(response);
                 console.log(response);
             },
-            complete: function(){
+            complete: function () {
                 $(portfolioModalContent).removeClass('loading');
+                addMobileSwipeSupport();
             }
         });
 
     });
 
     var cvNameConfig = {
-        duration    : 500
+        duration: 500
     };
 
     var introContentConfig = {
-        delay    : 100,
-        distance : '150px', //90 original
-        easing   : 'ease-in-out',
-        width   : 0,
-        scale    : 1.2,
-        rotate   : { z: 10 }, // x y z
-        origin : 'right', // bottom, left , top right
+        delay: 100,
+        distance: '150px', //90 original
+        easing: 'ease-in-out',
+        width: 0,
+        scale: 1.2,
+        rotate: {z: 10}, // x y z
+        origin: 'right', // bottom, left , top right
         viewFactor: 0.3
     };
 
 
     var portfolioImageConfig = {
-        delay    : 100,
-        distance : '150px', //90 original
-        easing   : 'cubic-bezier(.25,.1,.25,1)',
-        width   : 0,
-        scale    : 1.2,
-        origin : 'left', // bottom, left , top right
+        delay: 100,
+        distance: '150px', //90 original
+        easing: 'cubic-bezier(.25,.1,.25,1)',
+        width: 0,
+        scale: 1.2,
+        origin: 'left', // bottom, left , top right
         viewFactor: 0.3
     };
 
     var scrollDownConfig = {
-        delay    : 100,
-        distance : '100px', //90 original
-        easing   : 'cubic-bezier(.25,.1,.25,1)',
-        width   : 0,
-        scale    : 1.2,
-        origin : 'bottom', // bottom, left , top right
+        delay: 100,
+        distance: '100px', //90 original
+        easing: 'cubic-bezier(.25,.1,.25,1)',
+        width: 0,
+        scale: 1.2,
+        origin: 'bottom', // bottom, left , top right
         viewFactor: 0.3
     };
 
     var experienceRevealConfig = {
-        delay    : 100,
-        distance : '140px', //90 original
-        easing   : 'ease-in-out',
-        rotate   : { z: 10 }, // x y z
-        width   : 0,
-        scale    : 1.2,
-        origin : 'bottom', // bottom, left , top right
+        delay: 100,
+        distance: '140px', //90 original
+        easing: 'ease-in-out',
+        rotate: {z: 10}, // x y z
+        width: 0,
+        scale: 1.2,
+        origin: 'bottom', // bottom, left , top right
         viewFactor: 0.3
     };
 
     var achievementTitleConfig = {
-        delay    : 150,
-        distance : '240px', //90 original
-        easing   : 'ease-in-out',
-        width   : 0,
-        scale    : 1.2,
-        origin : 'left', // bottom, left , top right
+        delay: 150,
+        distance: '240px', //90 original
+        easing: 'ease-in-out',
+        width: 0,
+        scale: 1.2,
+        origin: 'left', // bottom, left , top right
         viewFactor: 0.3
     };
     var achievementToggleConfig = {
-        delay    : 150,
-        distance : '240px', //90 original
-        easing   : 'ease-in-out',
-        width   : 0,
-        scale    : 1.2,
-        origin : 'right', // bottom, left , top right
+        delay: 150,
+        distance: '240px', //90 original
+        easing: 'ease-in-out',
+        width: 0,
+        scale: 1.2,
+        origin: 'right', // bottom, left , top right
         viewFactor: 0.3
     };
 
@@ -193,6 +193,25 @@ $( document ).ready(function() {
     sr.reveal('.referee-item');
     sr.reveal('.achievement-title', achievementTitleConfig);
     sr.reveal('.achievement-toggle-wrap', achievementToggleConfig);
+
+    $(document).ready(function () {
+        $("#carousel-portfolio").swiperight(function () {
+            $(this).carousel("prev")
+        }), $("#carousel-portfolio").swipeleft(function () {
+            $(this).carousel("next")
+        })
+    });
+
+
+    function addMobileSwipeSupport()
+    {
+
+        $("#myCarouselo").swiperight(function () {
+            $(this).carousel("prev")
+        }), $("#myCarousel").swipeleft(function () {
+            $(this).carousel("next")
+        })
+    }
 
 
 });

@@ -50,6 +50,7 @@ class Page_Controller extends ContentController {
 			$themeFolder . '/js/jquery-2.2.4.min.js',
 			$themeFolder . '/js/bootstrap-3.3.7.min.js',
 			$themeFolder . '/js/jquery-easing.min.js',
+            $themeFolder . '/js/swipe-support.js',
 			$themeFolder . '/js/scrollreveal.min.js',
 			$themeFolder . '/js/custom.js'
 		);
