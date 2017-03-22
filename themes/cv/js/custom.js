@@ -106,7 +106,7 @@ $(document).ready(function () {
             },
             complete: function () {
                 $(portfolioModalContent).removeClass('loading');
-                addMobileSwipeSupport();
+                //addMobileSwipeSupport();
             }
         });
 
@@ -194,24 +194,24 @@ $(document).ready(function () {
     sr.reveal('.achievement-title', achievementTitleConfig);
     sr.reveal('.achievement-toggle-wrap', achievementToggleConfig);
 
-    $(document).ready(function () {
-        $("#carousel-portfolio").swiperight(function () {
-            $(this).carousel("prev")
-        }), $("#carousel-portfolio").swipeleft(function () {
-            $(this).carousel("next")
-        })
-    });
-
-
-    function addMobileSwipeSupport()
-    {
-
-        $("#myCarouselo").swiperight(function () {
-            $(this).carousel("prev")
-        }), $("#myCarousel").swipeleft(function () {
-            $(this).carousel("next")
-        })
-    }
+    // $(document).ready(function () {
+    //     $("#carousel-portfolio").swiperight(function () {
+    //         $(this).carousel("prev")
+    //     }), $("#carousel-portfolio").swipeleft(function () {
+    //         $(this).carousel("next")
+    //     })
+    // });
+    //
+    //
+    // function addMobileSwipeSupport()
+    // {
+    //
+    //     $("#myCarouselo").swiperight(function () {
+    //         $(this).carousel("prev")
+    //     }), $("#myCarousel").swipeleft(function () {
+    //         $(this).carousel("next")
+    //     })
+    // }
 
 
 });
