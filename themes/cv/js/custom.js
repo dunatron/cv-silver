@@ -29,6 +29,13 @@ $(document).ready(function () {
         }, 1000, 'easeInOutExpo');
     }
 
+    $(function () {
+        $('a.scroll-down').bind('click', function (event) {
+            event.preventDefault();
+            animateMenu('#portfolio');
+        });
+    });
+
     $(skillNav).on('click', function (e) {
         e.preventDefault();
         animateMenu('#skills');
@@ -56,19 +63,6 @@ $(document).ready(function () {
         } else {
             $(".navbar-fixed-top").removeClass("top-nav-collapse");
         }
-    });
-
-    $(function () {
-        $('a.scroll-down').bind('click', function (event) {
-            var anchor = $('#portfolio');
-            var myOffset = 22;
-            //
-            // $('html, body').stop().animate({
-            //     scrollTop: $(anchor).offset().top + myOffset
-            // }, 1500, 'easeInOutExpo');
-            event.preventDefault();
-            animateMenu('#portfolio');
-        });
     });
 
 //Jquery to reveal and hide education information
