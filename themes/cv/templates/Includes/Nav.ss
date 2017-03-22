@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">CV - Heath Dunlop</a>
+            <a class="navbar-brand page-scroll" href="#logoey">CV - Heath Dunlop</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

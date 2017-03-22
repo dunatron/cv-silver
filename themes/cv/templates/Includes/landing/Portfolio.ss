@@ -47,7 +47,7 @@
                         <div class="left-control"></div>
                     </a>
                     <%-- Next Slide --%>
-                    <a class="right carousel-control next-site-right" href="#carousel-portfolio" data-slide="next">
+                    <a class="right carousel-control next-sitex-right" href="#carousel-portfolio" data-slide="next">
                         <%--<i class="fa fa-arrow-right"></i>--%>
                         <div class="right-control"></div>
                     </a>
@@ -55,5 +55,5 @@
             </div>
         </div>
     </div>
-    <% include PortFolioModal %>=
+    <% include PortFolioModal %>
 </section>

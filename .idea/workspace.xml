@@ -4,8 +4,8 @@
     <list default="true" id="141213a5-e9b4-4112-91b0-886c3068a4b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/js/custom.js" afterPath="$PROJECT_DIR$/themes/cv/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/templates/Includes/Nav.ss" afterPath="$PROJECT_DIR$/themes/cv/templates/Includes/Nav.ss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss" afterPath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Skills.ss" afterPath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Skills.ss" />
     </list>
     <ignored path="cv-cms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +30,20 @@
         <entry file="file://$PROJECT_DIR$/themes/cv/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+              <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Achievements.ss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Achievements.ss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,8 +51,8 @@
       <file leaf-file-name="Nav.ss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/Nav.ss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="81" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="81" />
+            <state relative-caret-position="133">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -76,16 +88,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/cv/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="300" column="49" selection-start-line="300" selection-start-column="49" selection-end-line="300" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Skills.ss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Skills.ss">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,21 +98,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Portfolio.ss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Portfolio.ss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+            <state relative-caret-position="570">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Experience.ss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Experience.ss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Experience.ss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            <state relative-caret-position="342">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -187,14 +189,14 @@
         <option value="$PROJECT_DIR$/mysite/code/Page.php" />
         <option value="$PROJECT_DIR$/themes/cv/templates/Includes/landing/portfolio/PortFolioAjaxData.ss" />
         <option value="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Experience.ss" />
-        <option value="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Achievements.ss" />
         <option value="$PROJECT_DIR$/themes/cv/img/svg/calendar.svg" />
         <option value="$PROJECT_DIR$/themes/cv/css/base/_common.scss" />
         <option value="$PROJECT_DIR$/themes/cv/css/nav/_nav.scss" />
-        <option value="$PROJECT_DIR$/themes/cv/templates/Includes/Nav.ss" />
-        <option value="$PROJECT_DIR$/themes/cv/js/custom.js" />
         <option value="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Skills.ss" />
         <option value="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss" />
+        <option value="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Achievements.ss" />
+        <option value="$PROJECT_DIR$/themes/cv/templates/Includes/Nav.ss" />
+        <option value="$PROJECT_DIR$/themes/cv/js/custom.js" />
       </list>
     </option>
   </component>
@@ -848,12 +850,12 @@
       <workItem from="1489886652369" duration="187000" />
       <workItem from="1489886903001" duration="3210000" />
       <workItem from="1490162198043" duration="2445000" />
-      <workItem from="1490164998665" duration="8555000" />
+      <workItem from="1490164998665" duration="12632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86067000" />
+    <option name="totallyTimeSpent" value="90144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="124" y="46" width="1970" height="1353" extended-state="0" />
@@ -1174,24 +1176,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Achievements.ss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Experience.ss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/cv/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -1232,22 +1216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cv/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/Nav.ss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="81" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Skills.ss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1258,8 +1226,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        <state relative-caret-position="570">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cv/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Achievements.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/Nav.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Experience.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding />
         </state>
       </provider>

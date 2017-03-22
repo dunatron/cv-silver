@@ -10,7 +10,9 @@ $(document).ready(function () {
         ajaxPortfolioCarousel   =   $('#ajax-portfolio-carousel');
 
     // Nav selectors
-    var skillNav = $('#nav-skills'),
+    var NavBrand = $('.navbar-brand'),
+        skillNav = $('#nav-skills'),
+        HomenavyInMyHeart   =   $('#logoey'),
         experienceNav = $('#nav-experience'),
         achievementNav = $('#nav-achievements'),
         referenceNav = $('#nav-references');
@@ -36,6 +38,16 @@ $(document).ready(function () {
         });
     });
 
+    $(NavBrand).on('click', function (e) {
+        e.preventDefault();
+        animateMenu('#skills');
+    });
+
+    $(HomenavyInMyHeart).on('click', function (e) {
+        e.preventDefault();
+        animateMenu('#skills');
+    });
+
     $(skillNav).on('click', function (e) {
         e.preventDefault();
         animateMenu('#skills');
@@ -56,7 +68,8 @@ $(document).ready(function () {
         animateMenu('#references');
     });
 
-    //jQuery to collapse the navbar on scroll, so so gross, i know, but so are you. acceptance is peace
+    //jQuery to collapse the navbar on scr
+    // oll, so so gross, i know, but so are you. acceptance is peace
     $(window).scroll(function () {
         if ($(".navbar").offset().top > 50) {
             $(".navbar-fixed-top").addClass("top-nav-collapse");
@@ -189,8 +202,6 @@ $(document).ready(function () {
         }), $(portfolioCarousel).swipeleft(function () {
             $(this).carousel("next")
         });
-
-
 
     function addMobileSwipeSupport()
     {
