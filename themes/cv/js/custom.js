@@ -5,7 +5,9 @@ $(document).ready(function () {
 
     // Selectors
     var portfolioModal = $('#portfolioModal'),
-        portfolioModalContent = $('.portfolio-stuff');
+        portfolioModalContent = $('.portfolio-stuff'),
+        portfolioCarousel =     $('#carousel-portfolio'),
+        ajaxPortfolioCarousel   =   $('#ajax-portfolio-carousel');
     //portfolioCaseItem = ('.tradItTron');
 
     // Nav selectors
@@ -194,9 +196,9 @@ $(document).ready(function () {
     sr.reveal('.achievement-title', achievementTitleConfig);
     sr.reveal('.achievement-toggle-wrap', achievementToggleConfig);
 
-        $("#carousel-portfolio").swiperight(function () {
+        $(portfolioCarousel).swiperight(function () {
             $(this).carousel("prev")
-        }), $("#carousel-portfolio").swipeleft(function () {
+        }), $(portfolioCarousel).swipeleft(function () {
             $(this).carousel("next")
         });
 
@@ -205,9 +207,9 @@ $(document).ready(function () {
     function addMobileSwipeSupport()
     {
 
-        $("#myCarousel").swiperight(function () {
+        $(ajaxPortfolioCarousel).swiperight(function () {
             $(this).carousel("prev")
-        }), $("#myCarousel").swipeleft(function () {
+        }), $(ajaxPortfolioCarousel).swipeleft(function () {
             $(this).carousel("next")
         })
     }
