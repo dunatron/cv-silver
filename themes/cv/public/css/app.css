@@ -6404,23 +6404,23 @@ section {
   padding: 20px 0;
   margin: 0 0 40px 0; }
 
-.navbar-default .navbar-brand {
-  color: #c91B3D;
-  font-family: GustanMedium; }
-
-.navbar-default .navbar-toggle {
-  background-color: transparent;
-  border: none; }
-  .navbar-default .navbar-toggle .icon-bar {
-    background-color: #c91B3D; }
-  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:focus {
-    background-color: transparent; }
-    .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:active .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
-      background-color: #9D157F; }
-
-.navbar-default .navbar-collapse .navbar-nav li a {
-  color: #9D157F;
-  font-family: GustanLight; }
+.navbar-default {
+  margin: 0; }
+  .navbar-default .navbar-brand {
+    color: #c91B3D;
+    font-family: GustanMedium; }
+  .navbar-default .navbar-toggle {
+    background-color: transparent;
+    border: none; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #c91B3D; }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:focus {
+      background-color: transparent; }
+      .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:active .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+        background-color: #9D157F; }
+  .navbar-default .navbar-collapse .navbar-nav li a {
+    color: #9D157F;
+    font-family: GustanLight; }
 
 .statement .intro-details .cv-name {
   color: #D7601D;
