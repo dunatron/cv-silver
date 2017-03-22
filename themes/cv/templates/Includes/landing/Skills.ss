@@ -5,8 +5,7 @@
             <div class="col-lg-12 title-wrap">
 
                 <h1>Skills</h1>
-                <i class="fa fa-diamond fa-5x"
-                   style="padding-bottom: 50px;"></i>
+                <div class="section-icon"><img src="$ThemeDir/img/svg/tools.svg"></div>
             </div>
             <% if $getSkills %>
                 <% loop $getSkills %>

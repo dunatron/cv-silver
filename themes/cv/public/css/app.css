@@ -6315,7 +6315,7 @@ button.close {
   font-weight: 700; }
 
 body {
-  margin-top: 80px; }
+  margin-top: 51px; }
 
 .animate-link {
   position: relative;
@@ -6392,6 +6392,17 @@ body {
     height: 100%;
     width: 100%;
     z-index: 110; }
+
+.section-icon {
+  width: 80px;
+  margin: 40px auto 60px auto; }
+  .section-icon img {
+    width: 100%; }
+
+section {
+  border-top: 1px solid #D7601D;
+  padding: 20px 0;
+  margin: 0 0 40px 0; }
 
 .navbar-default .navbar-brand {
   color: #c91B3D;

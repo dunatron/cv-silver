@@ -4,8 +4,7 @@
         <div class="row">
             <div class="col-lg-12 title-wrap">
                 <h1>Experience</h1>
-                <i class="fa fa-calendar-o fa-5x"
-                   style="padding-bottom: 50px;"></i>
+                <div class="section-icon"><img src="$ThemeDir/img/svg/calendar.svg"></div>
             </div>
         </div>
         <%-- Loop Experiences --%>

@@ -5,7 +5,7 @@
             <div class="col-lg-12">
                 <h1 class="achievement-title" style="visibility: hidden;">Achievements</h1>
                 <div class="achievement-toggle-wrap" style="visibility: hidden;">
-                    <i class="fa fa-trophy fa-3x" data-toggle="collapse" data-target="#achievments-accordion"></i>
+                    <div class="section-icon"><img src="$ThemeDir/img/svg/trophy.svg" data-toggle="collapse" data-target="#achievments-accordion"></div>
                     <p class="toggle-text">( Toggle Me )</p>
                 </div>
                 <div id="achievments-accordion" class="well collapse">

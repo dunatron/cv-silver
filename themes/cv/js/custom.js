@@ -8,7 +8,6 @@ $(document).ready(function () {
         portfolioModalContent = $('.portfolio-stuff'),
         portfolioCarousel =     $('#carousel-portfolio'),
         ajaxPortfolioCarousel   =   $('#ajax-portfolio-carousel');
-    //portfolioCaseItem = ('.tradItTron');
 
     // Nav selectors
     var skillNav = $('#nav-skills'),
@@ -16,39 +15,36 @@ $(document).ready(function () {
         achievementNav = $('#nav-achievements'),
         referenceNav = $('#nav-references');
 
+    var NavbarHeight = $('.navbar').outerHeight();
+
+    function animateMenu(menuItem)
+    {
+        $('html, body').animate({
+            scrollTop: $(menuItem).offset().top - NavbarHeight
+        }, 1000, 'easeInOutExpo');
+    }
+
     $(skillNav).on('click', function (e) {
         e.preventDefault();
-
-        $('html, body').animate({
-            scrollTop: $("#skills").offset().top
-        }, 1000);
+        animateMenu('#skills');
     });
 
     $(experienceNav).on('click', function (e) {
         e.preventDefault();
-
-        $('html, body').animate({
-            scrollTop: $("#experience").offset().top
-        }, 1000);
+        animateMenu('#experience');
     });
 
     $(achievementNav).on('click', function (e) {
         e.preventDefault();
-
-        $('html, body').animate({
-            scrollTop: $("#achievements").offset().top
-        }, 1000);
+        animateMenu('#achievements');
     });
 
     $(referenceNav).on('click', function (e) {
         e.preventDefault();
-
-        $('html, body').animate({
-            scrollTop: $("#references").offset().top
-        }, 1000);
+        animateMenu('#references');
     });
 
-    //jQuery to collapse the navbar on scroll
+    //jQuery to collapse the navbar on scroll, so so gross, i know, but so are you. acceptance is peace
     $(window).scroll(function () {
         if ($(".navbar").offset().top > 50) {
             $(".navbar-fixed-top").addClass("top-nav-collapse");
@@ -79,14 +75,6 @@ $(document).ready(function () {
         });
 
     });
-
-    setCarouselTimer('#carousel-example');
-
-    function setCarouselTimer() {
-        $('.carousel').carousel({
-            interval: false
-        })
-    }
 
     $('.soBored').on('click', function () {
         $(portfolioModalContent).addClass('loading');
