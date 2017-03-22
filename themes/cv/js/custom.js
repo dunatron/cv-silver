@@ -60,13 +60,14 @@ $(document).ready(function () {
 
     $(function () {
         $('a.scroll-down').bind('click', function (event) {
-            var anchor = $(this);
+            var anchor = $('#portfolio');
             var myOffset = 22;
-
-            $('html, body').stop().animate({
-                scrollTop: $(anchor).offset().top + myOffset
-            }, 1500, 'easeInOutExpo');
+            //
+            // $('html, body').stop().animate({
+            //     scrollTop: $(anchor).offset().top + myOffset
+            // }, 1500, 'easeInOutExpo');
             event.preventDefault();
+            animateMenu('#portfolio');
         });
     });
 
