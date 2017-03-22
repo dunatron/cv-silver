@@ -19,6 +19,11 @@ $(document).ready(function () {
 
     function animateMenu(menuItem)
     {
+        // If mobily in close that fuck
+        if ($('.navbar-collapse').hasClass('in')){
+            console.log('sit down, before I put you down');
+            $('#Sit-boy-sit').removeClass('in');
+        }
         $('html, body').animate({
             scrollTop: $(menuItem).offset().top - NavbarHeight
         }, 1000, 'easeInOutExpo');
