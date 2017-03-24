@@ -6,23 +6,22 @@ $(document).ready(function () {
     // Selectors
     var portfolioModal = $('#portfolioModal'),
         portfolioModalContent = $('.portfolio-stuff'),
-        portfolioCarousel =     $('#carousel-portfolio'),
-        ajaxPortfolioCarousel   =   $('#ajax-portfolio-carousel');
+        portfolioCarousel = $('#carousel-portfolio'),
+        ajaxPortfolioCarousel = $('#ajax-portfolio-carousel');
 
     // Nav selectors
     var NavBrand = $('.navbar-brand'),
         skillNav = $('#nav-skills'),
-        HomenavyInMyHeart   =   $('#logoey'),
+        HomenavyInMyHeart = $('#logoey'),
         experienceNav = $('#nav-experience'),
         achievementNav = $('#nav-achievements'),
         referenceNav = $('#nav-references');
 
     var NavbarHeight = $('.navbar').outerHeight();
 
-    function animateMenu(menuItem)
-    {
+    function animateMenu(menuItem) {
         // If mobily in close that fuck
-        if ($('.navbar-collapse').hasClass('in')){
+        if ($('.navbar-collapse').hasClass('in')) {
             console.log('sit down, before I put you down');
             $('#Sit-boy-sit').removeClass('in');
         }
@@ -197,14 +196,21 @@ $(document).ready(function () {
     sr.reveal('.achievement-title', achievementTitleConfig);
     sr.reveal('.achievement-toggle-wrap', achievementToggleConfig);
 
-        $(portfolioCarousel).swiperight(function () {
-            $(this).carousel("prev")
-        }), $(portfolioCarousel).swipeleft(function () {
-            $(this).carousel("next")
-        });
+    $(portfolioCarousel).carousel({
+        interval: false
+    });
 
-    function addMobileSwipeSupport()
-    {
+    $(ajaxPortfolioCarousel).carousel({
+        interval: false
+    });
+
+    $(portfolioCarousel).swiperight(function () {
+        $(this).carousel("prev")
+    }), $(portfolioCarousel).swipeleft(function () {
+        $(this).carousel("next")
+    });
+
+    function addMobileSwipeSupport() {
 
         $(ajaxPortfolioCarousel).swiperight(function () {
             $(this).carousel("prev")

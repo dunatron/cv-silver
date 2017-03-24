@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="141213a5-e9b4-4112-91b0-886c3068a4b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Intro.ss" afterPath="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Intro.ss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/cv/js/custom.js" afterPath="$PROJECT_DIR$/themes/cv/js/custom.js" />
     </list>
     <ignored path="cv-cms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/cv/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+            <state relative-caret-position="597">
+              <caret line="206" column="39" selection-start-line="206" selection-start-column="39" selection-end-line="206" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -77,8 +77,8 @@
       <file leaf-file-name="Portfolio.ss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+            <state relative-caret-position="361">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -94,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Intro.ss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Intro.ss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Intro.ss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="551">
+              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#i#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
               </folding>
@@ -193,8 +193,8 @@
         <option value="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss" />
         <option value="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Achievements.ss" />
         <option value="$PROJECT_DIR$/themes/cv/templates/Includes/Nav.ss" />
-        <option value="$PROJECT_DIR$/themes/cv/js/custom.js" />
         <option value="$PROJECT_DIR$/themes/cv/templates/Includes/landing/Intro.ss" />
+        <option value="$PROJECT_DIR$/themes/cv/js/custom.js" />
       </list>
     </option>
   </component>
@@ -850,12 +850,12 @@
       <workItem from="1490162198043" duration="2445000" />
       <workItem from="1490164998665" duration="12632000" />
       <workItem from="1490210514702" duration="2782000" />
-      <workItem from="1490319121574" duration="49000" />
+      <workItem from="1490319121574" duration="451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92975000" />
+    <option name="totallyTimeSpent" value="93377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="124" y="46" width="1970" height="1353" extended-state="0" />
@@ -918,7 +918,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="atlassian-ide-plugin-workspace-issues">
@@ -1195,22 +1197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/cv/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Achievements.ss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -1253,11 +1239,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Intro.ss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="551">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#i#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cv/templates/Includes/landing/Portfolio.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/cv/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="206" column="39" selection-start-line="206" selection-start-column="39" selection-end-line="206" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
