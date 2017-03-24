@@ -22,7 +22,6 @@ $(document).ready(function () {
     function animateMenu(menuItem) {
         // If mobily in close that fuck
         if ($('.navbar-collapse').hasClass('in')) {
-            console.log('sit down, before I put you down');
             $('#Sit-boy-sit').removeClass('in');
         }
         $('html, body').animate({
@@ -39,12 +38,12 @@ $(document).ready(function () {
 
     $(NavBrand).on('click', function (e) {
         e.preventDefault();
-        animateMenu('#skills');
+        animateMenu('.LandingPage');
     });
 
     $(HomenavyInMyHeart).on('click', function (e) {
         e.preventDefault();
-        animateMenu('#skills');
+        animateMenu('.LandingPage');
     });
 
     $(skillNav).on('click', function (e) {
