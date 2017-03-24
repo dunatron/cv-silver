@@ -18,7 +18,7 @@
 
                 <hr>
                 <div class="intro-content">
-                    $Content
+                    $Intro
                 </div>
                 <hr>
             </div>
