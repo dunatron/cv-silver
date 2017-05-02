@@ -28,7 +28,7 @@
                                                 <%-- Above 1100px width --%>
                                                 <source srcset="$BannerImage.SetWidth(1170).URL">
                                                 <%-- Fallback needs to be large enough to fill slider at all screen sizes--%>
-                                                <img src="$BannerImage.SetWidth(1170).URL" class="img-responsive">
+                                                <img src="$BannerImage.SetWidth(1170).URL" class="img-responsive" draggable="false">
 
                                             </picture>
                                         </div>
