@@ -30,7 +30,7 @@ $(document).ready(function () {
     }
 
     $(function () {
-        $('a.scroll-down').bind('click', function (event) {
+        $('.scroll-down').bind('click', function (event) {
             event.preventDefault();
             animateMenu('#portfolio');
         });

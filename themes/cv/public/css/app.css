@@ -6422,14 +6422,32 @@ section {
     color: #9D157F;
     font-family: GustanLight; }
 
+.statement .person-svg {
+  max-height: 300px;
+  fill: #3c3c3c; }
+  @media (min-width: 992px) {
+    .statement .person-svg {
+      margin-top: 115px; } }
+
 .statement .intro-details .cv-name {
   color: #D7601D;
-  font-family: GustanExtraBlack; }
+  font-family: GustanExtraBlack;
+  text-align: center; }
+  @media (min-width: 992px) {
+    .statement .intro-details .cv-name {
+      text-align: left; } }
 
 .statement .intro-details .fa-phone {
   color: #c91B3D;
-  margin: 0 20px 0 0;
-  font-size: 18px; }
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: block; }
+  @media (min-width: 992px) {
+    .statement .intro-details .fa-phone {
+      margin: 0 20px 0 0;
+      display: inline-block; } }
   .statement .intro-details .fa-phone a {
     font-family: GustanMedium;
     color: #c91B3D; }
@@ -6438,7 +6456,14 @@ section {
 
 .statement .intro-details .fa-envelope-o {
   font-size: 18px;
-  color: #c91B3D; }
+  color: #c91B3D;
+  text-align: center;
+  margin: 0 auto;
+  display: block; }
+  @media (min-width: 992px) {
+    .statement .intro-details .fa-envelope-o {
+      margin: 0 20px 0 0;
+      display: inline-block; } }
   .statement .intro-details .fa-envelope-o a {
     font-family: GustanMedium;
     color: #c91B3D; }
@@ -6450,11 +6475,20 @@ section {
   font-size: 16px; }
 
 .statement .arrow-container {
-  text-align: center; }
+  text-align: center;
+  min-height: 45px; }
 
 .statement .btn-arrow {
-  border-radius: 100px;
-  color: #D7601D; }
+  color: #D7601D;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  transform: rotate(45deg) !important;
+  border-bottom: 1px solid #9D157F;
+  border-right: 1px solid #9D157F;
+  border-radius: 0; }
+  .statement .btn-arrow:hover {
+    cursor: pointer; }
 
 .portfolio h1 {
   color: #444444;
