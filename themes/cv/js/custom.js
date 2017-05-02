@@ -108,10 +108,29 @@ $(document).ready(function () {
             complete: function () {
                 $(portfolioModalContent).removeClass('loading');
                 addMobileSwipeSupport();
+                portfolioItemsSlider();
             }
         });
 
     });
+
+    var sliderOptions = {
+        speed: 500,
+        slideMargin: 0,
+        nextText: 'Next',
+        prevText: 'Prev',
+        maxSlides: 1,
+        captions: true,
+        controls: true,
+        adaptiveHeight: true,
+        pager: true,
+        responsive: true
+    };
+
+    function portfolioItemsSlider()
+    {
+        $('.portfolioItems-Slider').bxSlider(sliderOptions);
+    }
 
     var cvNameConfig = {
         duration: 500
