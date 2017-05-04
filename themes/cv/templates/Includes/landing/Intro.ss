@@ -4,16 +4,17 @@
         <div class="row">
             <div class="col-md-4">
                 <%--<img src="img/heath.jpg" class="img-responsive" alt="Heath Profile Image">--%>
-                <% with $ProfileImage %>
-                    <img src="$URL" class="img-responsive cv-portfolio-image" alt="Heath Profile Image">
-                <% end_with %>
+                <%--<% with $ProfileImage %>--%>
+                    <%--<img src="$URL" class="img-responsive cv-portfolio-image" alt="Heath Profile Image">--%>
+                <%--<% end_with %>--%>
+                {$getPersonSVGIcon}
 
             </div>
             <div class="col-md-8 intro-details">
                 <h1 class="cv-name" id="CVName">Heath Dunlop</h1>
                 <div class="contact-details-wrap">
                     <i class="fa fa-phone fa"><a href="tel:$Phone">$Phone</a></i>
-                    <i class="fa fa-envelope-o" style="padding-bottom: 40px;"><a href="mailto:$Email">$Email</a></i>
+                    <i class="fa fa-envelope-o"><a href="mailto:$Email">$Email</a></i>
                 </div>
 
                 <hr>

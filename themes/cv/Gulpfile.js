@@ -13,7 +13,8 @@ var config = {
 gulp.task('css', function() {
     return gulp.src('./css/app.scss')
         .pipe(sass({
-            includePaths: [config.bootstrapDir + '/assets/stylesheets'],
+            includePaths: [config.bootstrapDir + '/assets/stylesheets',
+                './node_modules/breakpoint-sass/stylesheets/breakpoint.scss']
         }))
         .pipe(gulp.dest(config.publicDir + '/css'));
 });

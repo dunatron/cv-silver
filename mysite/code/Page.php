@@ -83,4 +83,10 @@ class Page_Controller extends ContentController {
 		}
 	}
 
+	public function getPersonSVGIcon()
+	{
+		$theme = $this->ThemeDir();
+		return file_get_contents('../' . $theme . '/img/svg/person_icon.svg');
+	}
+
 }

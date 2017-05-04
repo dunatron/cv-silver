@@ -1,13 +1,34 @@
 .statement {
+
+  .person-svg {
+    max-height: 300px;
+    fill:#3c3c3c;
+    @include breakpoint($break_992){
+      margin-top: 115px;
+    }
+  }
+
   .intro-details {
     .cv-name {
       color: $c_secondary;
       font-family: $font_GustanExtraBlack;
+      text-align: center;
+      @include breakpoint($break_992){
+        text-align: left;
+      }
     }
     .fa-phone {
       color: $c_primary;
-      margin: 0 20px 0 0;
+
       font-size: 18px;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      display: block;
+      @include breakpoint($break_992){
+        margin: 0 20px 0 0;
+        display: inline-block;
+      }
       a {
         font-family: $font_GustanMedium;
         color: $c_primary;
@@ -19,6 +40,13 @@
     .fa-envelope-o {
       font-size: 18px;
       color: $c_primary;
+      text-align: center;
+      margin: 0 auto;
+      display: block;
+      @include breakpoint($break_992){
+        margin: 0 20px 0 0;
+        display: inline-block;
+      }
       a {
         font-family: $font_GustanMedium;
         color: $c_primary;
