@@ -62,10 +62,7 @@ class Page_Controller extends ContentController {
 		// Combine js files
 		Requirements::combine_files('scripts.js', $JSFiles);
 
-		$visitorAddress = $this->getIP();
-		$visitor = Visitor::create();
-		$visitor->IPAddress = $visitorAddress;
-		$visitor->write();
+		$this->doIpStuff();
 	}
 
 	/**
@@ -82,6 +79,30 @@ class Page_Controller extends ContentController {
 			return $_SERVER['REMOTE_ADDR'];
 		}
 	}
+
+	public function doIpStuff()
+    {
+        $visitorAddress = $this->getIP();
+        $checkName = $this->checkIPAddress($visitorAddress);
+        $visitor = Visitor::create();
+        $visitor->IPAddress = $visitorAddress;
+        if (!empty($checkName))
+        {
+            $visitor->Name = $checkName;
+        }
+        $visitor->write();
+    }
+
+    public function checkIPAddress($address)
+    {
+        $visitors = Visitor::get()->filter(array(
+            'IPAddress' =>  $address
+        ));
+
+        $first = $visitors->first();
+        return $first->Name;
+    }
+
 
 	public function getPersonSVGIcon()
 	{

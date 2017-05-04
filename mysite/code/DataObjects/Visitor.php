@@ -9,7 +9,8 @@ class Visitor extends DataObject
 {
     private static $db = array(
         'Title' =>  'Text',
-        'IPAddress' =>  'Varchar(20)'
+        'IPAddress' =>  'Varchar(20)',
+        'Name'  =>  'Text'
     );
 
     private static $has_one = array();
@@ -18,7 +19,8 @@ class Visitor extends DataObject
 
     private static $summary_fields = array(
         'Title'  =>  'Title',
-        'IPAddress' => 'IPAddress'
+        'IPAddress' => 'IPAddress',
+        'Name'  =>  'Name'
     );
 
     public function getCMSFields()
