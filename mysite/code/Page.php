@@ -95,12 +95,11 @@ class Page_Controller extends ContentController {
 
     public function checkIPAddress($address)
     {
-        $visitors = Visitor::get()->filter(array(
+        $visitor = Visitor::get()->filter(array(
             'IPAddress' =>  $address
-        ));
+        ))->first();
 
-        $first = $visitors->first();
-        return $first->Name;
+        return $visitor->Name;
     }
 
 
