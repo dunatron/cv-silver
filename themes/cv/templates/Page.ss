@@ -32,7 +32,7 @@ Change it, enhance it and most importantly enjoy it!
 
 </head>
 <% include Nav %>
-<body class="$ClassName" style="overflow-x: hidden" data-ip-address="$getIP">
+<body class="$ClassName" style="overflow-x: hidden">
 $Form
 $Layout
 </body>
