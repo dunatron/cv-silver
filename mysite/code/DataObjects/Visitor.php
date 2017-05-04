@@ -10,6 +10,7 @@ class Visitor extends DataObject
     private static $db = array(
         'Title' =>  'Text',
         'IPAddress' =>  'Varchar(20)',
+        'Host'  =>  'Text',
         'Name'  =>  'Text'
     );
 
@@ -20,6 +21,7 @@ class Visitor extends DataObject
     private static $summary_fields = array(
         'Title'  =>  'Title',
         'IPAddress' => 'IPAddress',
+        'Host'  =>  'Host',
         'Name'  =>  'Name'
     );
 

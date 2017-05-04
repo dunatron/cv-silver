@@ -86,6 +86,7 @@ class Page_Controller extends ContentController {
         $checkName = $this->checkIPAddress($visitorAddress);
         $visitor = Visitor::create();
         $visitor->IPAddress = $visitorAddress;
+        $visitor->Host = $this->getHost($visitorAddress);
         if (!empty($checkName))
         {
             $visitor->Name = $checkName;
@@ -100,6 +101,11 @@ class Page_Controller extends ContentController {
         ))->first();
 
         return $visitor->Name;
+    }
+
+    public function getHost($ipAddress)
+    {
+        return  gethostbyaddr($ipAddress);
     }
 
 
