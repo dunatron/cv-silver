@@ -1,4 +1,8 @@
 var gulp = require('gulp');
+var connect = require('gulp-connect');
+var browserify = require('browserify');
+var babelify = require('babelify');
+var source = require('vinyl-source-stream');
 var sass = require('gulp-sass');
 
 var config = {
@@ -19,7 +23,29 @@ gulp.task('fonts', function() {
         .pipe(gulp.dest(config.publicDir + '/fonts'));
 });
 
+gulp.task('connect', function(){
+   connect.server({
+       base: 'http://cv.local',
+       port: 8889,
+       root: './public',
+       livereload: true
+   });
+});
+
+gulp.task('js', function(){
+    browserify('./js/main.js')
+        .transform(babelify)
+        .bundle()
+        .pipe(source('all.js'))
+        .pipe(gulp.dest('./public/scripts'))
+        .pipe(connect.reload());
+});
+
 gulp.task('watch', function(){
     gulp.watch('js/**/*.js', ['js']);
     gulp.watch('css/**/*.scss', ['css']);
+});
+
+gulp.task('default', ['js', 'css', 'fonts', 'connect', 'watch'], function(){
+
 });

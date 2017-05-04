@@ -53,7 +53,8 @@ class Page_Controller extends ContentController {
 			$themeFolder . '/js/jquery-easing.min.js',
             $themeFolder . '/js/swipe-support.js',
 			$themeFolder . '/js/scrollreveal.min.js',
-			$themeFolder . '/js/custom.js'
+			$themeFolder . '/js/custom.js',
+            $themeFolder . '/public/scripts/all.js'
 		);
 		// Combine css files
 		Requirements::combine_files('styles.js', $CSSFiles);

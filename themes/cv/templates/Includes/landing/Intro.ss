@@ -10,7 +10,7 @@
 
             </div>
             <div class="col-md-8 intro-details">
-                <h1 class="cv-name">Heath Dunlop</h1>
+                <h1 class="cv-name" id="CVName">Heath Dunlop</h1>
                 <div class="contact-details-wrap">
                     <i class="fa fa-phone fa"><a href="tel:$Phone">$Phone</a></i>
                     <i class="fa fa-envelope-o" style="padding-bottom: 40px;"><a href="mailto:$Email">$Email</a></i>
@@ -23,7 +23,7 @@
                 <hr>
             </div>
             <div class="col-md-12 arrow-container">
-                <a class="btn btn-arrow page-scroll scroll-down" href="#skills"><i class="fa fa-chevron-circle-down fa-5x"></i></a>
+                <div id="arrowScroll"></div>
             </div>
         </div>
     </div>

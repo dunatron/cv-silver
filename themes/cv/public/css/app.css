@@ -6451,10 +6451,15 @@ section {
 
 .statement .arrow-container {
   text-align: center; }
-
-.statement .btn-arrow {
-  border-radius: 100px;
-  color: #D7601D; }
+  .statement .arrow-container #arrowScroll {
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    border-bottom: 1px solid #9D157F;
+    border-right: 1px solid #9D157F;
+    margin: 0 auto; }
+    .statement .arrow-container #arrowScroll:hover {
+      cursor: pointer; }
 
 .portfolio h1 {
   color: #444444;
