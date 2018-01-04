@@ -19,8 +19,6 @@ favicon.ico
 install.php
 web.config
 atlassian-ide-plugin.xml
-.htaccess
-index.php
 /themes/simple/
 .idea/dictionaries/admin.xml
 .idea/workspace.xml
