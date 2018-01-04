@@ -23,6 +23,10 @@ class LandingPage extends Page
         'Intro' => 'HTMLText'
     );
 
+    private static $casting = [
+        'getPersonSVGIcon' => 'HTMLText',
+    ];
+
     private static $defaults = array (
 	    'ShowInMenus' => true,
 	    'ShowInSearch' => true
@@ -41,8 +45,6 @@ class LandingPage extends Page
     private static $belongs_many_many = array();
 
     private static $many_many_extraFields = array();
-
-    private static $casting = array();
 
     private static $default_sort = '';
 

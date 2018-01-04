@@ -2,6 +2,7 @@
 
 use SilverStripe\CMS\Controllers\ContentController;
 use SilverStripe\View\Requirements;
+use SilverStripe\View\ThemeResourceLoader;
 
 class PageController extends ContentController
 {
@@ -32,11 +33,22 @@ class PageController extends ContentController
         $themeFolder = $this->ThemeDir();
 
         // Set the folder to our theme so that relative image paths work
+
+    }
+
+    public function doInit()
+    {
+        //parent::init();
+        parent::doInit();
+        Requirements::clear();
+        $themeFolder = $this->ThemeDir();
+        Requirements::set_write_js_to_body(true);
+        Requirements::set_force_js_to_bottom(true);
         Requirements::set_combined_files_folder($themeFolder . '/combinedfiles');
 
         // Add all our css files to combine into an array
         $CSSFiles = array(
-            $themeFolder . '/css/main.css'
+            $themeFolder . '/public/css/app.css'
         );
 
         // Add all our files to combine into an array
@@ -57,6 +69,10 @@ class PageController extends ContentController
         Requirements::combine_files('scripts.js', $JSFiles);
 
         $this->doIpStuff();
+    }
+    public function ThemeDir()
+    {
+        return ThemeResourceLoader::inst()->getPath('cv');
     }
 
     /**
@@ -106,6 +122,6 @@ class PageController extends ContentController
     public function getPersonSVGIcon()
     {
         $theme = $this->ThemeDir();
-        return file_get_contents('../' . $theme . '/img/svg/person_icon.svg');
+        return file_get_contents($theme . '/img/svg/person_icon.svg');
     }
 }

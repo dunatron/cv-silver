@@ -12,9 +12,9 @@ class Subject extends DataObject
 {
     private static $db = array(
         'Title' => 'Text',
-        'APoint' => 'int',
-        'MPoint' => 'int',
-        'EPoint' => 'int',
+        'APoint' => 'Int',
+        'MPoint' => 'Int',
+        'EPoint' => 'Int',
         'Teacher' => 'Text',
         'Comment' => 'Text',
         'ReportType' => 'Text'

@@ -55,5 +55,5 @@
             </div>
         </div>
     </div>
-    <% include PortFolioModal %>
+    <% include Includes\landing\portfolio\PortFolioModal %>
 </section>
