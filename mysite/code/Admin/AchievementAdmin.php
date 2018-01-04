@@ -1,4 +1,9 @@
 <?php
+
+use SilverStripe\Forms\GridField\GridFieldPaginator;
+use SilverStripe\Forms\GridField\GridFieldDataColumns;
+use SilverStripe\ORM\FieldType\DBDate;
+use SilverStripe\Admin\ModelAdmin;
 /**
  * Created by PhpStorm.
  * User: admin
@@ -37,10 +42,10 @@ class AchievementAdmin extends ModelAdmin
 
         $config = $gridField->getConfig();
 
-        $config->getComponentByType('GridFieldPaginator')->setItemsPerPage(20);
-        $config->getComponentByType('GridFieldDataColumns')
+        $config->getComponentByType(GridFieldPaginator::class)->setItemsPerPage(20);
+        $config->getComponentByType(GridFieldDataColumns::class)
             ->setDisplayFields(array(
-                'Date'  => 'Date',
+                'Date'  => DBDate::class,
                 'AchievementText' => 'Text'
             ));
 //        $config->getComponentByType('GridFieldDataColumns')

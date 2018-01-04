@@ -1,4 +1,6 @@
 <?php
+
+use SilverStripe\ORM\DataObject;
 /**
  * Created by PhpStorm.
  * User: admin
@@ -7,7 +9,7 @@
  */
 class Skill extends DataObject
 {
-    public static $default_sort='SortOrder';
+    private static $default_sort='SortOrder';
 
     private static $db = array(
         'Title' => 'Text',

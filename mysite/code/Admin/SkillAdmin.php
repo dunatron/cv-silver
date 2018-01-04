@@ -1,4 +1,9 @@
 <?php
+
+use SilverStripe\Forms\GridField\GridField;
+use SilverStripe\Forms\GridField\GridFieldPaginator;
+use SilverStripe\Forms\GridField\GridFieldDataColumns;
+use SilverStripe\Admin\ModelAdmin;
 /**
  * Created by PhpStorm.
  * User: admin
@@ -40,8 +45,8 @@ class SkillAdmin extends ModelAdmin
 
         $config = $gridField->getConfig();
 
-        $config->getComponentByType('GridFieldPaginator')->setItemsPerPage(20);
-        $config->getComponentByType('GridFieldDataColumns')
+        $config->getComponentByType(GridFieldPaginator::class)->setItemsPerPage(20);
+        $config->getComponentByType(GridFieldDataColumns::class)
             ->setDisplayFields(array(
                 'Title'  => 'Name',
                 'Color' => 'Color',

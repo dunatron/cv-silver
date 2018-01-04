@@ -1,4 +1,7 @@
 <?php
+
+use SilverStripe\Forms\DateField;
+use SilverStripe\ORM\DataObject;
 /**
  * Created by PhpStorm.
  * User: admin
@@ -7,7 +10,7 @@
  */
 class Experience extends DataObject
 {
-    public static $default_sort='SortOrder';
+    private static $default_sort='SortOrder';
 
     private static $db = array(
         'JobTitle'  =>  'Text',

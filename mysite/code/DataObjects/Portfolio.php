@@ -1,4 +1,8 @@
 <?php
+
+use SilverStripe\Assets\Image;
+use SilverStripe\AssetAdmin\Forms\UploadField;
+use SilverStripe\ORM\DataObject;
 /**
  * Created by PhpStorm.
  * User: Heath
@@ -6,7 +10,7 @@
  * Time: 9:39 PM
  */
 class Portfolio extends DataObject {
-    public static $default_sort='SortOrder';
+    private static $default_sort='SortOrder';
 
     private static $db = array(
         'SiteURL'  =>  'Text',
@@ -15,11 +19,11 @@ class Portfolio extends DataObject {
     );
 
     private static $has_one = array(
-        'BannerImage'   =>  'Image'
+        'BannerImage'   =>  Image::class
     );
 
     private static $many_many = array(
-        'PortfolioImages' => 'Image'
+        'PortfolioImages' => Image::class
     );
 
     private static $summary_fields = array(

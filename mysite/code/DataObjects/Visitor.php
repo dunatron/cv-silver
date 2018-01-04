@@ -1,4 +1,7 @@
 <?php
+
+use SilverStripe\Forms\TextField;
+use SilverStripe\ORM\DataObject;
 /**
  * Created by PhpStorm.
  * User: Heath
