@@ -4,10 +4,15 @@
     color: $c_black;
     text-align: center;
   }
-  .fa-trophy {
-    display: block;
-    color: $c_black;
-    text-align: center;
+  //.fa-trophy {
+  //  display: block;
+  //  color: $c_black;
+  //  text-align: center;
+  //  &:hover {
+  //    cursor: pointer;
+  //  }
+  //}
+  .trophy-icon {
     &:hover {
       cursor: pointer;
     }

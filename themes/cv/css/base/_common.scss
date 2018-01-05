@@ -1,5 +1,6 @@
 body {
   margin-top: 51px;
+  font-family: $font_primary_family;
 }
 
 hr {
@@ -11,6 +12,10 @@ a {
   &:hover {
     color: lighten($c_primary, 15%)
   }
+}
+
+p {
+  color: $c_primary_text;
 }
 
 // Small animation for an underline | apply class to links

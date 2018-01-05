@@ -19,11 +19,19 @@
       .title {
         color: $c_primary;
         font-size: 18px;
+        font-family: $font_GustanMedium;
       }
       .date {
         color: $c_tertiary;
         font-size: 12px;
+        font-family: $font_GustanMedium;
       }
+      .time-at-job {
+        color: $c_tertiary;
+        font-size: 12px;
+        font-family: $font_GustanMedium;
+      }
+
     }
     .experience-body {
 

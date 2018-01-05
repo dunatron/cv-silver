@@ -13,7 +13,8 @@
                 <div class="experience-item">
                     <div class="experience-details">
                         <span class="title">$JobTitle</span>
-                        <span class="date">$DateRange</span><span>$TimeAtJob</span>
+                        <span class="date">$DateRange</span>
+                        <span class="time-at-job">( $TimeAtJob )</span>
                     </div>
                     <div class="experience-body">
                         $Body

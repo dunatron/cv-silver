@@ -6315,12 +6315,16 @@ button.close {
   font-weight: 700; }
 
 body {
-  margin-top: 51px; }
+  margin-top: 51px;
+  font-family: GustanLight; }
 
 a {
   color: #c91B3D; }
   a:hover {
     color: #e74a68; }
+
+p {
+  color: #586667; }
 
 .animate-link {
   position: relative;
@@ -6612,7 +6616,7 @@ section {
   padding-bottom: 20px; }
   @media screen and (min-width: 560px) {
     .portfolio .portfolio-title-block a {
-      font-size: 16px; } }
+      font-size: 18px; } }
   @media screen and (min-width: 768px) {
     .portfolio .portfolio-title-block a {
       font-size: 20px; } }
@@ -6665,6 +6669,9 @@ section {
 
 .portfolio .portfolio-details .portfolio-title {
   font: 300 26px/32px GustanLight; }
+
+.portfolio .portfolio-details p {
+  font-size: 16px; }
 
 .portfolio #portfolioModal {
   padding: 0;
@@ -6802,22 +6809,24 @@ section {
   margin-bottom: 10px; }
   .experience .experience-item .experience-details .title {
     color: #c91B3D;
-    font-size: 18px; }
+    font-size: 18px;
+    font-family: GustanMedium; }
   .experience .experience-item .experience-details .date {
     color: #9D157F;
-    font-size: 12px; }
+    font-size: 12px;
+    font-family: GustanMedium; }
+  .experience .experience-item .experience-details .time-at-job {
+    color: #9D157F;
+    font-size: 12px;
+    font-family: GustanMedium; }
 
 .achievements {
   padding: 25px 0; }
   .achievements h1 {
     color: #444444;
     text-align: center; }
-  .achievements .fa-trophy {
-    display: block;
-    color: #444444;
-    text-align: center; }
-    .achievements .fa-trophy:hover {
-      cursor: pointer; }
+  .achievements .trophy-icon:hover {
+    cursor: pointer; }
   .achievements .toggle-text {
     color: #444444;
     text-align: center;
