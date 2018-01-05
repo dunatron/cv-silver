@@ -23,3 +23,4 @@ atlassian-ide-plugin.xml
 .idea/dictionaries/admin.xml
 .idea/workspace.xml
 /themes/cv/node_modules/
+.env
