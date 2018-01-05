@@ -40,18 +40,18 @@
         <li class="item <% if $First %>active<% end_if %>">
             <picture>
                 <%-- Simple image - depreciated by <picture> --%>
-                <source srcset="$Me.SetWidth(320).URL" media="(max-width: 320px)" class="img-responsive">
-                <source srcset="$Me.SetWidth(400).URL" media="(max-width: 400px)" class="img-responsive">
-                <source srcset="$Me.SetWidth(768).URL" media="(max-width: 600px)" class="img-responsive">
-                <source srcset="$Me.SetWidth(1100).URL" media="(max-width: 767px)" class="img-responsive">
+                <source srcset="$Me.ScaleWidth(320).URL" media="(max-width: 320px)" class="img-responsive">
+                <source srcset="$Me.ScaleWidth(400).URL" media="(max-width: 400px)" class="img-responsive">
+                <source srcset="$Me.ScaleWidth(768).URL" media="(max-width: 600px)" class="img-responsive">
+                <source srcset="$Me.ScaleWidth(1100).URL" media="(max-width: 767px)" class="img-responsive">
 
                 <%-- Layout reflows to 2 column --%>
-                <source srcset="$Me.SetWidth(1170).URL" media="(max-width: 1100px)" class="img-responsive">
+                <source srcset="$Me.ScaleWidth(1170).URL" media="(max-width: 1100px)" class="img-responsive">
 
                 <%-- Above 1100px width --%>
-                <source srcset="$Me.SetWidth(1170).URL">
+                <source srcset="$Me.ScaleWidth(1170).URL">
                 <%-- Fallback needs to be large enough to fill slider at all screen sizes--%>
-                <img src="$Me.SetWidth(1170).URL" class="img-responsive">
+                <img src="$Me.ScaleWidth(1170).URL" class="img-responsive">
             </picture>
         </li>
     <% end_loop %>

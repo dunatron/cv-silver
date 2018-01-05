@@ -97,7 +97,8 @@ class LandingPageController extends PageController
                 'BannerImage'   =>  $bannerImage,
                 'AssocImages'  =>  $relatedImages
             ));
-            echo $data->renderWith('PortFolioAjaxData');
+            //echo $data->renderWith('PortFolioAjaxData');
+            return $this->owner->customise($data)->renderWith('Includes/landing/portfolio/PortFolioAjaxData');
         } else {
             return 'No Portfolio data for the specified ID G';
         }
