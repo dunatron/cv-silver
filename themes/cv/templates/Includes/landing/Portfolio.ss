@@ -20,18 +20,18 @@
                                         <div class="col-md-8 portfolio-images">
                                             <picture class="soBored" data-portfolio-id="$ID">
                                                 <%-- Simple image - depreciated by <picture> --%>
-                                                <source srcset="$BannerImage.SetWidth(320).URL" media="(max-width: 320px)">
-                                                <source srcset="$BannerImage.SetWidth(400).URL" media="(max-width: 400px)">
-                                                <source srcset="$BannerImage.SetWidth(768).URL" media="(max-width: 600px)">
-                                                <source srcset="$BannerImage.SetWidth(1100).URL" media="(max-width: 767px)">
+                                                <source srcset="$BannerImage.ScaleWidth(320).URL" media="(max-width: 320px)">
+                                                <source srcset="$BannerImage.ScaleWidth(400).URL" media="(max-width: 400px)">
+                                                <source srcset="$BannerImage.ScaleWidth(768).URL" media="(max-width: 600px)">
+                                                <source srcset="$BannerImage.ScaleWidth(1100).URL" media="(max-width: 767px)">
 
                                                 <%-- Layout reflows to 2 column --%>
-                                                <source srcset="$BannerImage.SetWidth(1170).URL" media="(max-width: 1100px)">
+                                                <source srcset="$BannerImage.ScaleWidth(1170).URL" media="(max-width: 1100px)">
 
                                                 <%-- Above 1100px width --%>
-                                                <source srcset="$BannerImage.SetWidth(1170).URL">
+                                                <source srcset="$BannerImage.ScaleWidth(1170).URL">
                                                 <%-- Fallback needs to be large enough to fill slider at all screen sizes--%>
-                                                <img src="$BannerImage.SetWidth(1170).URL" class="img-responsive" draggable="false">
+                                                <img src="$BannerImage.ScaleWidth(1170).URL" class="img-responsive" draggable="false">
                                             </picture>
                                         </div>
                                         <% include Includes\landing\portfolio\PortfolioDetails %>
