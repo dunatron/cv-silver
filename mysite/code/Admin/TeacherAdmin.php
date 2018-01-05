@@ -1,4 +1,10 @@
 <?php
+
+use SilverStripe\Forms\GridField\GridFieldPaginator;
+use SilverStripe\Forms\GridField\GridFieldDataColumns;
+use SilverStripe\Control\Email\Email;
+use SilverStripe\Admin\ModelAdmin;
+
 /**
  * Created by PhpStorm.
  * User: admin
@@ -36,12 +42,12 @@ class TeacherAdmin extends ModelAdmin
 
         $config = $gridField->getConfig();
 
-        $config->getComponentByType('GridFieldPaginator')->setItemsPerPage(20);
-        $config->getComponentByType('GridFieldDataColumns')
+        $config->getComponentByType(GridFieldPaginator::class)->setItemsPerPage(20);
+        $config->getComponentByType(GridFieldDataColumns::class)
             ->setDisplayFields(array(
                 'Name'  => 'Name',
                 'Phone' => 'Phone',
-                'Email' => 'Email'
+                'Email' => Email::class
             ));
 //        $config->getComponentByType('GridFieldDataColumns')
 //            ->setFieldFormatting(array(

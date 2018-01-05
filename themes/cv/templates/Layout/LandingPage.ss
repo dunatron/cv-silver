@@ -1,14 +1,14 @@
-<% include Intro %>
+<% include Includes\landing\Intro %>
 
-<% include Portfolio %>
+<% include Includes\landing\Portfolio %>
 
 <%--<% include Education %>--%>
 
-<% include Skills %>
+<% include Includes\landing\Skills %>
 
-<% include Experience %>
+<% include Includes\landing\Experience %>
 
-<% include Achievements %>
+<% include Includes\landing\Achievements %>
 
-<% include References %>
+<% include Includes\landing\References %>
 

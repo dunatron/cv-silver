@@ -1,4 +1,11 @@
 <?php
+
+use SilverStripe\Forms\GridField\GridField;
+use SilverStripe\Forms\GridField\GridFieldPaginator;
+use SilverStripe\Forms\GridField\GridFieldDataColumns;
+use SilverStripe\Admin\ModelAdmin;
+use UndefinedOffset\SortableGridField\Forms\GridFieldSortableRows;
+
 /**
  * Created by PhpStorm.
  * User: Heath
@@ -39,8 +46,8 @@ class PortfolioAdmin extends ModelAdmin
 
         $config = $gridField->getConfig();
 
-        $config->getComponentByType('GridFieldPaginator')->setItemsPerPage(20);
-        $config->getComponentByType('GridFieldDataColumns')
+        $config->getComponentByType(GridFieldPaginator::class)->setItemsPerPage(20);
+        $config->getComponentByType(GridFieldDataColumns::class)
             ->setDisplayFields(array(
                 'SiteURL'  => 'SiteURL',
                 'About' => 'About'

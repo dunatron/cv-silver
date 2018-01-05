@@ -1,4 +1,11 @@
 <?php
+
+use SilverStripe\Forms\GridField\GridFieldPaginator;
+use SilverStripe\Forms\GridField\GridFieldDataColumns;
+use SilverStripe\ORM\FieldType\DBDate;
+use SilverStripe\Admin\ModelAdmin;
+
+
 /**
  * Created by PhpStorm.
  * User: admin
@@ -36,10 +43,10 @@ class ReferenceAdmin extends ModelAdmin
 
         $config = $gridField->getConfig();
 
-        $config->getComponentByType('GridFieldPaginator')->setItemsPerPage(20);
-        $config->getComponentByType('GridFieldDataColumns')
+        $config->getComponentByType(GridFieldPaginator::class)->setItemsPerPage(20);
+        $config->getComponentByType(GridFieldDataColumns::class)
             ->setDisplayFields(array(
-                'Name'  => 'Date',
+                'Name'  => DBDate::class,
                 'Position' => 'Text',
                 'Rating' => 'Rating'
             ));

@@ -1,5 +1,22 @@
 .portfolio {
 
+  .portfolio-title-block {
+    text-align: center !important;
+    padding-bottom: 20px;
+    a {
+      @media screen and (min-width: $break-560) {
+        font-size: 16px;
+      }
+      @media screen and (min-width: $break-768) {
+        font-size: 20px;
+      }
+      @media screen and (min-width: $break-1200) {
+        font-size: 24px;
+      }
+    }
+  }
+
+
   h1 {
     color: $c_black;
     text-align: center;

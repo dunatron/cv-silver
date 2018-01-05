@@ -14,6 +14,9 @@
                             <% loop $getPortfolioItems %>
                                 <div class="item<% if $First %> active<% end_if %>">
                                     <div class="carousel-content">
+                                        <div class="col-md-12 portfolio-title-block">
+                                            <a href="$SiteURL" class="animate-link portfolio-title">$SiteURL</a>
+                                        </div>
                                         <div class="col-md-8 portfolio-images">
                                             <picture class="soBored" data-portfolio-id="$ID">
                                                 <%-- Simple image - depreciated by <picture> --%>
@@ -29,10 +32,9 @@
                                                 <source srcset="$BannerImage.SetWidth(1170).URL">
                                                 <%-- Fallback needs to be large enough to fill slider at all screen sizes--%>
                                                 <img src="$BannerImage.SetWidth(1170).URL" class="img-responsive" draggable="false">
-
                                             </picture>
                                         </div>
-                                        <% include PortfolioDetails %>
+                                        <% include Includes\landing\portfolio\PortfolioDetails %>
 
                                     </div>
                                 </div>
@@ -55,5 +57,5 @@
             </div>
         </div>
     </div>
-    <% include PortFolioModal %>
+    <% include Includes\landing\portfolio\PortFolioModal %>
 </section>

@@ -1,4 +1,9 @@
 <?php
+
+use SilverStripe\ORM\FieldType\DBDate;
+use SilverStripe\Forms\DateField;
+use SilverStripe\Forms\DropdownField;
+use SilverStripe\ORM\DataObject;
 /**
  * Created by PhpStorm.
  * User: admin
@@ -21,7 +26,7 @@ class Achievement extends DataObject
     public function getCMSFields()
     {
         $fields = parent::getCMSFields();
-        $fields->addFieldToTab('Root.Main', DateField::create('Date', 'Date Achieved')
+        $fields->addFieldToTab('Root.Main', DateField::create(DBDate::class, 'Date Achieved')
             ->setConfig('dateformat', 'dd-MM-yyyy')
             ->setConfig('showcalendar', true));
         $fields->addFieldToTab('Root.Main', new DropdownField(
