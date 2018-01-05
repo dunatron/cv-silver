@@ -12,6 +12,11 @@ use SilverStripe\ORM\DataObject;
 class Portfolio extends DataObject {
     private static $default_sort='SortOrder';
 
+    public function canView($member = null)
+    {
+        return true;
+    }
+
     private static $db = array(
         'SiteURL'  =>  'Text',
         'About' => 'HTMLText',
