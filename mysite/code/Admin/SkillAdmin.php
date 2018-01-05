@@ -4,6 +4,7 @@ use SilverStripe\Forms\GridField\GridField;
 use SilverStripe\Forms\GridField\GridFieldPaginator;
 use SilverStripe\Forms\GridField\GridFieldDataColumns;
 use SilverStripe\Admin\ModelAdmin;
+use UndefinedOffset\SortableGridField\Forms\GridFieldSortableRows;
 /**
  * Created by PhpStorm.
  * User: admin

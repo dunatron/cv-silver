@@ -66,7 +66,7 @@ class LandingPage extends Page
     {
         $fields = parent::getCMSFields();
         $fields->addFieldToTab('Root.Main', TextField::create('Phone', 'Phone number'), 'Metadata');
-        $fields->addFieldToTab('Root.Main', TextField::create(Email::class, 'Email address'), 'Metadata');
+        $fields->addFieldToTab('Root.Main', TextField::create('Email', 'Email address'), 'Metadata');
         $fields->addFieldToTab('Root.Main', HTMLEditorField::create('Intro', 'Intro statement'), 'Metadata');
         $fields->addFieldToTab('Root.Main', UploadField::create('ProfileImage', 'Profile Photo'), 'Intro');
         

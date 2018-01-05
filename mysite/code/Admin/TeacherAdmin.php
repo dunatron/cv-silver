@@ -4,6 +4,7 @@ use SilverStripe\Forms\GridField\GridFieldPaginator;
 use SilverStripe\Forms\GridField\GridFieldDataColumns;
 use SilverStripe\Control\Email\Email;
 use SilverStripe\Admin\ModelAdmin;
+
 /**
  * Created by PhpStorm.
  * User: admin

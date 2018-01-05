@@ -6317,21 +6317,26 @@ button.close {
 body {
   margin-top: 51px; }
 
+a {
+  color: #c91B3D; }
+  a:hover {
+    color: #e74a68; }
+
 .animate-link {
   position: relative;
-  color: #000;
+  color: #c91B3D;
   text-decoration: none; }
   .animate-link:hover {
-    color: #000;
+    color: #e74a68;
     text-decoration: none; }
   .animate-link:before {
     content: '';
     position: absolute;
     width: 100%;
     height: 2px;
-    bottom: 0;
+    bottom: -2px;
     left: 0;
-    background-color: #000;
+    background-color: #e74a68;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -6341,6 +6346,122 @@ body {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1); }
+
+.toggle-arrows-btn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out 0s;
+  text-decoration: none; }
+  .toggle-arrows-btn:before {
+    content: '';
+    display: block;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid #9D157F;
+    border-right: 2px solid #9D157F;
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in-out 0s; }
+  .toggle-arrows-btn:after {
+    content: '';
+    display: block;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-bottom: 2px solid #9D157F;
+    border-left: 2px solid #9D157F;
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in-out 0s; }
+  .toggle-arrows-btn:hover {
+    text-decoration: none; }
+    .toggle-arrows-btn:hover:before {
+      content: '';
+      display: block;
+      display: inline-block;
+      position: absolute;
+      right: 8px;
+      width: 20px;
+      height: 20px;
+      border-top: 2px solid #9D157F;
+      border-right: 2px solid #9D157F;
+      transform: rotate(45deg);
+      transition: all 0.3s ease-in-out 0s; }
+    .toggle-arrows-btn:hover:after {
+      content: '';
+      display: block;
+      display: inline-block;
+      position: absolute;
+      left: 8px;
+      width: 20px;
+      height: 20px;
+      border-bottom: 2px solid #9D157F;
+      border-left: 2px solid #9D157F;
+      transition: all 0.3s ease-in-out 0s; }
+    .toggle-arrows-btn:hover span {
+      position: relative;
+      color: #c91B3D;
+      text-decoration: none; }
+      .toggle-arrows-btn:hover span:hover {
+        color: #e74a68;
+        text-decoration: none; }
+      .toggle-arrows-btn:hover span:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: -2px;
+        left: 0;
+        background-color: #e74a68;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s; }
+      .toggle-arrows-btn:hover span:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1); }
+      .toggle-arrows-btn:hover span:before {
+        bottom: -3px;
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1); }
+  .toggle-arrows-btn:focus {
+    text-decoration: none; }
+  .toggle-arrows-btn:active {
+    text-decoration: none; }
+  .toggle-arrows-btn:visited {
+    text-decoration: none; }
+  .toggle-arrows-btn span {
+    position: relative;
+    color: #c91B3D;
+    text-decoration: none; }
+    .toggle-arrows-btn span:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: -3px;
+      left: 0;
+      background-color: #e74a68;
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s; }
+
+@-webkit-keyframes slide {
+  100% {
+    left: 0; } }
+
+@keyframes slide {
+  100% {
+    left: 0; } }
 
 .left-arrow:before {
   content: '';
@@ -6485,6 +6606,19 @@ section {
     margin: 0 auto; }
     .statement .arrow-container #arrowScroll:hover {
       cursor: pointer; }
+
+.portfolio .portfolio-title-block {
+  text-align: center !important;
+  padding-bottom: 20px; }
+  @media screen and (min-width: 560px) {
+    .portfolio .portfolio-title-block a {
+      font-size: 16px; } }
+  @media screen and (min-width: 768px) {
+    .portfolio .portfolio-title-block a {
+      font-size: 20px; } }
+  @media screen and (min-width: 1200px) {
+    .portfolio .portfolio-title-block a {
+      font-size: 24px; } }
 
 .portfolio h1 {
   color: #444444;
