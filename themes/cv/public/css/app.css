@@ -6338,7 +6338,7 @@ p {
     position: absolute;
     width: 100%;
     height: 2px;
-    bottom: -2px;
+    bottom: 0;
     left: 0;
     background-color: #e74a68;
     visibility: hidden;
@@ -6418,7 +6418,7 @@ p {
         position: absolute;
         width: 100%;
         height: 2px;
-        bottom: -2px;
+        bottom: 0;
         left: 0;
         background-color: #e74a68;
         visibility: hidden;
@@ -6562,37 +6562,46 @@ section {
     .statement .intro-details .cv-name {
       text-align: left; } }
 
-.statement .intro-details .fa-phone {
-  color: #c91B3D;
+.statement .intro-details .fa-phone, .statement .intro-details .fa-envelope-o, .statement .intro-details .fa-github {
   font-size: 18px;
+  padding: 5px 0;
+  color: #c91B3D;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 10px;
-  display: block; }
+  display: block;
+  font-style: normal; }
   @media (min-width: 992px) {
-    .statement .intro-details .fa-phone {
+    .statement .intro-details .fa-phone, .statement .intro-details .fa-envelope-o, .statement .intro-details .fa-github {
       margin: 0 20px 0 0;
       display: inline-block; } }
-  .statement .intro-details .fa-phone a {
+  .statement .intro-details .fa-phone a, .statement .intro-details .fa-envelope-o a, .statement .intro-details .fa-github a {
+    position: relative;
+    color: #c91B3D;
+    text-decoration: none;
     font-family: GustanMedium;
     color: #c91B3D; }
-  .statement .intro-details .fa-phone:before {
-    margin: 0 10px 0 0; }
-
-.statement .intro-details .fa-envelope-o {
-  font-size: 18px;
-  color: #c91B3D;
-  text-align: center;
-  margin: 0 auto;
-  display: block; }
-  @media (min-width: 992px) {
-    .statement .intro-details .fa-envelope-o {
-      margin: 0 20px 0 0;
-      display: inline-block; } }
-  .statement .intro-details .fa-envelope-o a {
-    font-family: GustanMedium;
-    color: #c91B3D; }
-  .statement .intro-details .fa-envelope-o:before {
+    .statement .intro-details .fa-phone a:hover, .statement .intro-details .fa-envelope-o a:hover, .statement .intro-details .fa-github a:hover {
+      color: #e74a68;
+      text-decoration: none; }
+    .statement .intro-details .fa-phone a:before, .statement .intro-details .fa-envelope-o a:before, .statement .intro-details .fa-github a:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #e74a68;
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s; }
+    .statement .intro-details .fa-phone a:hover:before, .statement .intro-details .fa-envelope-o a:hover:before, .statement .intro-details .fa-github a:hover:before {
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1); }
+  .statement .intro-details .fa-phone:before, .statement .intro-details .fa-envelope-o:before, .statement .intro-details .fa-github:before {
     margin: 0 10px 0 0; }
 
 .statement .intro-details .intro-content {

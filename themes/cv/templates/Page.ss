@@ -25,10 +25,10 @@ Change it, enhance it and most importantly enjoy it!
     <![endif]-->
     <link rel="shortcut icon" href="$ThemeDir/images/favicon.ico" />
     <%-- Theme CSS --%>
-    <link rel="stylesheet" href="$ThemeDir/public/css/app.css">
-    <link rel="stylesheet" href="$ThemeDir/public/css/jquery.bxslider.css">
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <%--<link rel="stylesheet" href="$ThemeDir/public/css/app.css">--%>
+    <%--<link rel="stylesheet" href="$ThemeDir/public/css/jquery.bxslider.css">--%>
+    <%--<!-- Font Awesome Icons -->--%>
+    <%--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">--%>
 
 </head>
 <% include Nav %>

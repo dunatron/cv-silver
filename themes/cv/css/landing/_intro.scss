@@ -17,37 +17,41 @@
         text-align: left;
       }
     }
-    .fa-phone {
-      color: $c_primary;
-
+    //.fa-phone {
+    //  color: $c_primary;
+    //
+    //  font-size: 18px;
+    //  text-align: center;
+    //  margin: 0 auto;
+    //  margin-bottom: 10px;
+    //  display: block;
+    //  @include breakpoint($break_992){
+    //    margin: 0 20px 0 0;
+    //    display: inline-block;
+    //  }
+    //  a {
+    //    font-family: $font_GustanMedium;
+    //    color: $c_primary;
+    //  }
+    //  &:before {
+    //    margin: 0 10px 0 0;
+    //  }
+    //}
+    .fa-phone, .fa-envelope-o, .fa-github {
       font-size: 18px;
+      padding: 5px 0;
+      color: $c_primary;
       text-align: center;
       margin: 0 auto;
       margin-bottom: 10px;
       display: block;
+      font-style: normal;
       @include breakpoint($break_992){
         margin: 0 20px 0 0;
         display: inline-block;
       }
       a {
-        font-family: $font_GustanMedium;
-        color: $c_primary;
-      }
-      &:before {
-        margin: 0 10px 0 0;
-      }
-    }
-    .fa-envelope-o {
-      font-size: 18px;
-      color: $c_primary;
-      text-align: center;
-      margin: 0 auto;
-      display: block;
-      @include breakpoint($break_992){
-        margin: 0 20px 0 0;
-        display: inline-block;
-      }
-      a {
+        @include animate_link;
         font-family: $font_GustanMedium;
         color: $c_primary;
       }

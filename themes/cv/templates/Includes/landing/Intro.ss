@@ -15,6 +15,7 @@
                 <div class="contact-details-wrap">
                     <i class="fa fa-phone fa"><a href="tel:$Phone">$Phone</a></i>
                     <i class="fa fa-envelope-o"><a href="mailto:$Email">$Email</a></i>
+                    <i class="fa fa-github"><a href="https://github.com/dunatron" target="_blank">https://github.com/dunatron</a></i>
                 </div>
 
                 <hr>
