@@ -80,6 +80,15 @@ class LandingPageController extends PageController
     }
 
     /**
+     * Get All Certificates
+     */
+    public function getCertificates()
+    {
+        return Certificate::get();
+    }
+
+
+    /**
      * Get PortfolioData
      */
     public function getPortFolioData(){

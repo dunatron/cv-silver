@@ -26,7 +26,7 @@ gulp.task('fonts', function() {
 
 gulp.task('connect', function(){
    connect.server({
-       base: 'http://cv.local',
+       base: 'http://portfolio.d',
        port: 8889,
        root: './public',
        livereload: true

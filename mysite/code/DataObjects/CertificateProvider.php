@@ -8,7 +8,7 @@ use SilverStripe\ORM\DataObject;
  * Date: 8/02/18
  * Time: 6:34 PM
  */
-class Certificate extends DataObject {
+class CertificateProvider extends DataObject {
 
     public function canView($member = null)
     {
@@ -17,16 +17,16 @@ class Certificate extends DataObject {
 
     private static $db = array(
         'Title'  =>  'Text',
-        'BadgeURL' => 'Text',
-        'BadgeMarkup' => 'HTMLText'
+        'ProviderURL' => 'Text'
     );
 
-    private static $has_one = [
-        'CertProvider' => CertificateProvider::class
+    private static $has_many = [
+        'Certificates' => Certificate::class
     ];
 
     private static $summary_fields = array(
         'Title'  =>  'Title',
+        'ProviderURL' => 'ProviderURL'
     );
 
     public function getCMSFields()

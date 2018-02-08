@@ -6851,7 +6851,8 @@ section {
 
 .certificates .certificates__container {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .certificates .testdome-certificate-stamp {
   margin: 8px; }
