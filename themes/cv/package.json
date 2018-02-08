@@ -6,6 +6,7 @@
     "gulp-bower": "0.0.13",
     "gulp-connect": "^5.0.0",
     "gulp-sass": "^2.3.2",
+    "node-sass": "^4.7.2",
     "vinyl-source-stream": "^1.1.0"
   }
 }

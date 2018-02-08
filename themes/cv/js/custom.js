@@ -171,4 +171,12 @@ $(document).ready(function () {
     }
 
 
+    // Insert target="_blank" to all certificate a tags in the cert container
+  function injectLinkAttrForContainer(container, attr, attrValue) {
+    $(container).children('a[href]').attr(attr, attrValue);
+  }
+
+  injectLinkAttrForContainer('.certificates__container', 'target', '_blank');
+
+
 });

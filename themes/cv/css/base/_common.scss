@@ -8,7 +8,7 @@ hr {
 }
 
 a {
-  color: $c_primary;
+
   &:hover {
     color: lighten($c_primary, 15%)
   }

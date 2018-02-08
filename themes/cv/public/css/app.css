@@ -6318,10 +6318,8 @@ body {
   margin-top: 51px;
   font-family: GustanLight; }
 
-a {
-  color: #c91B3D; }
-  a:hover {
-    color: #e74a68; }
+a:hover {
+  color: #e74a68; }
 
 p {
   color: #586667; }
@@ -6850,6 +6848,13 @@ section {
     border: 1px solid #c91B3D; }
     .achievements #achievments-accordion h3 {
       color: #c91B3D; }
+
+.certificates .certificates__container {
+  display: flex;
+  flex-wrap: wrap; }
+
+.certificates .testdome-certificate-stamp {
+  margin: 8px; }
 
 .references h1 {
   color: #444444;
